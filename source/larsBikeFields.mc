@@ -171,15 +171,14 @@ class larsBikeFields {
         
         //ascent calc
         if ( info.timerState == Activity.TIMER_STATE_ON ) {
-        	var currAlt = info.altitude * METERS_TO_FEET;
         	if ( lastAlt == null ) {
-        		lastAlt = currAlt;
+        		lastAlt = info.altitude;
         	}
-        	if ( currAlt > lastAlt ) {
-        		eleGain += (currAlt - lastAlt);
-        		elevationGain = toInt(eleGain);
+        	if ( info.altitude > lastAlt ) {
+        		eleGain += (info.altitude - lastAlt);
+        		elevationGain = toInt(eleGain * METERS_TO_FEET);
         	}
-        	lastAlt = currAlt;
+        	lastAlt = info.altitude;
         }
         
     }
