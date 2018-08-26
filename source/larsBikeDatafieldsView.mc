@@ -2,6 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics;
 using Toybox.System as Sys;
 using Toybox.UserProfile as Up;
+using Toybox.Sensor as Sens;
 
 class larsBikeDatafieldsView extends Ui.DataField {
 
@@ -12,6 +13,17 @@ class larsBikeDatafieldsView extends Ui.DataField {
     var HRZONE3 = 134;
     var HRZONE4 = 139;
     var HRZONE5 = 154;
+    var hasPower = 0;
+  	var f1_label = "label1"; 
+  	var f2_label = "label2"; 
+  	var f3_label = "label3"; 
+  	var f4_label = "label4"; 
+  	var f5_label = "label5"; 
+  	var f1_value = 11;
+  	var f2_value = 2;
+  	var f3_value = 333;
+  	var f4_value = 4444;
+  	var f5_value = 555; 
 
     function initialize() {
     	DataField.initialize();
@@ -31,101 +43,122 @@ class larsBikeDatafieldsView extends Ui.DataField {
 		HRZONE5 = HRZones[4];	
 		
 		//System.println("HR Zones 2-5 for " + sport + ": " + HRZONE2 + " / " + HRZONE3 + " / " + HRZONE4 + " / " + HRZONE5);
+
+/*
+		//check for power
+		var sensorInfo = Sens.getInfo(); 
+		if (sensorInfo has :power && sensorInfo.power != null ){
+			System.println("we have power");
+			hasPower = 1;
+		} 
+    */
     }
     
     function onLayout(dc) {
     }
 
 	function drawLayout(dc) {
-		//TODO - this will need work
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         // horizontal lines
-        dc.drawLine(0, 122, 230, 122);
+        dc.drawLine(0, 80, 230, 80);
         dc.drawLine(0, 202, 230, 202);
         dc.drawLine(0, 282, 230, 282);
         // vertical lines
-        dc.drawLine(115, 122, 115, 282);
-        //dc.drawLine(65, 71, 65, 132);
-        //dc.drawLine(120, 285, 120, 285);
-        //dc.drawLine(120, 132, 120, 213);
+        dc.drawLine(115, 1, 115, 80);
+        dc.drawLine(115, 202, 115, 282);
     }
     
     function onUpdate(dc) {
-   
-   		//TODO do i decide layout here every time? if power then...
+  
    		
-   		//TODO do the layout for mtb - HERE
+   		/*
+   			if power exists then:
+   				f1 HR
+   				f2 time
+   				f3 power 3s
+   				f4 speed
+   				f5 distance
+   			else
+   				f1 time
+   				f2 elevation
+   				f3 HR
+   				f4 distance
+   				f5	trimp?
+   		*/
+   		//TODO test for power existence and then set fields
+   		//call compute to get fields and set 	
+   		//TODO how to alter HR text??
+   	
+   		//TODO pretend no power
+   		if ( hasPower ) {
+   			//TODO power
+   		} else {
+   			f1_label = "Time";	
+   			f1_value = fields.timer;	//TODO need secs?
    		
+   			f2_label = "Tot Ascent";	
+   			f2_value = fields.elevationGain; 
+   		
+   			f3_label = "HR";	
+   			f3_value = fields.hr;
+   		
+   			f4_label = "Distance";	
+   			f4_value = fields.dist;
+   		
+   			f5_label = "HRavg 3min";	
+   			f5_value = fields.avgHR3;
+   		}
    		 
-    	//new layout focused on lap:
-    	//lap time, HR, lap distance, pace, lap pace, gap, 
+    	//new layout 
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.clear();
 
-		/* TODO - update location and fields
-		//lap timer
-        textC(dc, 75, 60, Graphics.FONT_NUMBER_MEDIUM, fields.lapTime);
-
-        textC(dc, 75, 60, Graphics.FONT_NUMBER_MEDIUM,  fields.lapTime);
+		//layout:
+        textC(dc, 57, 9, Graphics.FONT_XTINY, f1_label);
+        textL(dc, 1, 46 , Graphics.FONT_NUMBER_MEDIUM,  f1_value);
         if (fields.timerSecs != null) {
-            var length = dc.getTextWidthInPixels(fields.lapTimer, Graphics.FONT_NUMBER_MEDIUM);
-            textC(dc, 75 + length + 1, 60, Graphics.FONT_NUMBER_MILD, fields.lapTimerSecs);
+            var length = dc.getTextWidthInPixels(f1_value, Graphics.FONT_NUMBER_MEDIUM);
+            textL(dc, 1 + length + 1, 56, Graphics.FONT_MEDIUM, fields.timerSecs);
+            System.println("display timerSecs " + fields.timerSecs + " length: " + length);
         }
-        textR(dc, 117, 28, Graphics.FONT_XTINY,  "LapTime");
-      	 
-		//HR
-        doHrBackground(dc, fields.hrN);
-        textC(dc, 162, 60, Graphics.FONT_NUMBER_MEDIUM,  fields.hr);
-        textC(dc, 155, 28, Graphics.FONT_XTINY, "HR");
-	 
-		//lap distance
-        textC(dc, 70, 122, Graphics.FONT_NUMBER_MEDIUM,  fields.lapDistance);
-        textC(dc, 75, 90, Graphics.FONT_XTINY,  "Lap Dist");
-
-		//pace
-        textC(dc, 163, 122, Graphics.FONT_NUMBER_MEDIUM, fields.pace10s);
-        textL(dc, 124, 90, Graphics.FONT_XTINY,  "Pace10s");
-
-		//lap pace
-        textC(dc, 66, 169, Graphics.FONT_NUMBER_MEDIUM, fields.lapPace);
-        textR(dc, 115, 201, Graphics.FONT_XTINY, "LapPace");
-
-		//GAP 10s
-        textC(dc, 163, 169, Graphics.FONT_NUMBER_MEDIUM, fields.gap);
-        textL(dc, 124, 201, Graphics.FONT_XTINY, "GAP 10s");
-
-		*/
-		//time
+        
+        textC(dc, 172, 9, Graphics.FONT_XTINY, f2_label);
+        textC(dc, 172, 46, Graphics.FONT_NUMBER_MEDIUM,  f2_value);
+        
+        textC(dc, 115, 90, Graphics.FONT_XTINY, f3_label);
+        textC(dc, 115, 152, Graphics.FONT_NUMBER_THAI_HOT,  f3_value);
+        textL(dc, 1, 152, Graphics.FONT_NUMBER_HOT, getHrZone(fields.hrN));
+        
+        textC(dc, 57, 212, Graphics.FONT_XTINY, f4_label);
+        textC(dc, 57, 248 , Graphics.FONT_NUMBER_MEDIUM,  f4_value);
+        
+        textC(dc, 172, 212, Graphics.FONT_XTINY, f5_label);
+        textC(dc, 172, 248, Graphics.FONT_NUMBER_MEDIUM,  f5_value);
+        
+		//time and battery
         textL(dc, 75, 292, Graphics.FONT_TINY, fields.time);
         drawBattery(dc);
         drawLayout(dc);
         return true;
     }
 
-	function doHrBackground(dc, hr) {
+	//return zone since 130 doesn't support color
+	function getHrZone(hr) {
         if (hr == null) {
-            return;
+            return "";
         }
 
-        var color;
         if (hr >= HRZONE5) {
-            color = Graphics.COLOR_PURPLE;
+            return 5;
         } else if (hr > HRZONE4) {
-            color = Graphics.COLOR_RED;
+            return 4;
         } else if (hr > HRZONE3) {
-            color = Graphics.COLOR_YELLOW;
+            return 3;
         } else if (hr > HRZONE2) {
-            color = Graphics.COLOR_GREEN;
+            return 2;
         } else {
-            color = Graphics.COLOR_BLUE;
+            return 1;
         }
-
-		//fix spacing
-        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-        //dc.fillRectangle(154, 72, 65, 16);
-        //dc.fillRectangle(128, 83, 65, 16);
-        dc.fillRectangle(125, 22, 65, 16);
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
     }
 
     function drawBattery(dc) {

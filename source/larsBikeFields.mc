@@ -5,48 +5,38 @@ using Toybox.System as Sys;
 class larsBikeFields {
     // last 60 seconds - 'current speed' samples
     hidden var lastSecs = new [60];
+    hidden var lastHR = new [180];
     hidden var curPos;
+    hidden var hrPos;
     const METERS_TO_MILES = 0.000621371;
+    const METERS_TO_FEET = 3.28;
     
     // public fields - usable after the user calls compute
     var dist;
     var hr;
-    var hrN;
+    var hrN; 
     var timer;
-    var timerSecs;
-    var pace10s;
-    var paceAvg;
+    var timerSecs = null;
     var time;
-    var gap;
-    var avgHR;
-    var startLapTime = 0;
-    var startLapDistance = 0;
-    var lapTime ;
-    var lapTimeSecs ;
-    var lapDistance ;
-    var lapPace ;
-    var lapSpeed;
+    var avgHR3 = 0; 
+    var trimp; //TODO implement
+    var elevationGain = 0;
+    var eleGain = 0.0;
+    var lastAlt = null;
     
-    //GAP calc - 10 samples
-    var altitudes = new[10];
-	var distances = new [10];
-	var speeds = new [10];
-    
-
     function initialize() {
         for (var i = 0; i < lastSecs.size(); ++i) {
             lastSecs[i] = 0.0;
         }
+        
+        for (var i = 0; i < lastHR.size(); i++) {
+       		lastHR[i] = 0; 
+        }
 
         curPos = 0;
-        
-        for (var i = 0; i < altitudes.size(); i++) {
-        	altitudes[i] = 0.0; 
-        	distances[i] = 0.0;
-        	speeds[i] = 0.0;
-        }
+        hrPos = 0;
     }
-
+ 
     function getAverage(a) {
         var count = 0;
         var sum = 0.0;
@@ -84,21 +74,6 @@ class larsBikeFields {
         }
     }
 
-    function toPace(speed) {
-        if (speed == null || speed == 0) {
-            return null;
-        }
-
-    	//System.println("toPace: speed= " + speed);
-
-        var settings = Sys.getDeviceSettings();
-        var unit = 1609; // miles
-        if (settings.paceUnits == Sys.UNIT_METRIC) {
-            unit = 1000; // km
-        }
-        return unit / speed;
-    }
-
     function toDist(d) {
         if (d == null) {
             return "0.00";
@@ -113,26 +88,21 @@ class larsBikeFields {
         return dist.format("%.2f");
     }
     
-    function toDistDiff(d, e) {
-        if (d == null || e == null) {
-            return "0.00";
-        }
-
-        var dist;
-        if (Sys.getDeviceSettings().distanceUnits == Sys.UNIT_METRIC) {
-            dist = (d - e) / 1000.0;
-        } else {
-            dist = (d - e) / 1609.0;
-        }
-        return dist.format("%.2f");
-    }
-
     function toStr(o) {
         if (o != null) {
             return "" + o;
         } else {
             return "---";
         }
+    }
+    
+    function toInt(f) {
+    	//System.println("toInt: " + f);
+    	if (f == null ) {
+    		return "--";
+    	} else {
+   			return f.format("%d"); 
+   		}
     }
 
     function fmtSecs(secs) {
@@ -168,161 +138,50 @@ class larsBikeFields {
     }
 
     function compute(info) {
-        if (info.currentSpeed != null && info.currentSpeed > 0) {
-            var idx = curPos % lastSecs.size();
-            curPos++;
-            lastSecs[idx] = info.currentSpeed;
-        }
 
-        var avg10s = getNAvg(lastSecs, curPos, 10);
+       	if (info.currentHeartRate != null ) {
+            var idx = hrPos % lastHR.size();
+            hrPos++;
+            lastHR[idx] = info.currentHeartRate;
+        }
+         
+        hr = toStr(info.currentHeartRate);
+        hrN = info.currentHeartRate;
+        avgHR3 = toInt(getAverage(lastHR));
         
-        //store altitude and distance for a number of samples
-        if ( info.altitude != null && info.elapsedDistance != null ) {
-         	
-	    	for (var i = altitudes.size() - 2; i >= 0 ; i--) {
-	    		altitudes[i+1] = altitudes[i];
-	    		distances[i+1] = distances[i];
-	    	}
-	    	
-	    	altitudes[0] = info.altitude;
-	    	distances[0] = info.elapsedDistance;
-	    }
-	    	
-        //distance, time, avgSpeed, avg10s        
-        var elapsed = info.timerTime - startLapTime; //calc for lap
-      
-      	var lapDist = 0;
-        if ( info.elapsedDistance != null) {
-        	lapDist = info.elapsedDistance - startLapDistance;
-        }
-       
-       	//System.println("elapsed / lapSpeed / lapDist: " + elapsed + " / " + lapSpeed + " / " + lapDist);
-       	 
-        if ( elapsed > 1000 ) {	//small #'s no bueno
-        	lapSpeed = lapDist / (elapsed/1000);
-       	} else {
-       		lapSpeed = 0;
-       	}
-       	 
-       	//System.println("lap speed / lap dist / elapsed: " + lapSpeed + " / " + lapDist + " / " + elapsed);
-        var elapsedSecs = null;
-
-        if (elapsed != null) {
+        //TODO power? pace10s =  fmtSecs(toPace(avg10s));
+        time = fmtTime(Sys.getClockTime());
+        dist = toDist(info.elapsedDistance);
+        
+        var elapsed = info.timerTime;
+        //elapsed = 60*23*1000 + info.timerTime;
+        //elapsed = 60*60*3*1000 + info.timerTime;
+        
+       	if (elapsed != null) {
             elapsed /= 1000;
 
             if (elapsed >= 3600) {
-                elapsedSecs = (elapsed.toLong() % 60).format("%02d");
+                timerSecs = (elapsed.toLong() % 60).format("%02d");
+                System.println("timerSecs: " + timerSecs); 
             }
-        }
-
-        hr = toStr(info.currentHeartRate);
-        hrN = info.currentHeartRate;
-        //paceAvg = fmtSecs(toPace(info.averageSpeed));
-        pace10s =  fmtSecs(toPace(avg10s));
-        time = fmtTime(Sys.getClockTime());
+        } 
+        timer = fmtSecs(elapsed);  //will it be annoying to not have secs when > 1 hr
+        
         //avgHR = toStr(info.averageHeartRate);
         
-        lapTime = fmtSecs(elapsed);
-        lapTimeSecs = elapsedSecs;
-        lapDistance = toDistDiff(info.elapsedDistance, startLapDistance);
-        lapPace =  fmtSecs(toPace(lapSpeed));
-       	 
-        //GAP
-    	gap = fmtSecs(toPace(calcGap(avg10s, calcGrade())));
-    	//BUG - this used existing pace, not 10s - gap = fmtSecs(toPace(calcGap(info.currentSpeed, calcGrade())));
-    }
-    
-    function calcGrade() {
-    	//System.println("calcGrade: entered");
-    	
-    	var altDelta = 0;
-    	var distDelta = 0;
-    	var delta = 0;
-    	var count = 0;
-    	
-    	//use buffer data to determine rolling grade
-    	for (var i = 0; i < altitudes.size() -2; i++ ) {
-    			delta = (distances[i] - distances[i+1]);
-    			//make sure we're moving
-    			if ( delta != 0 ) {
-	    			distDelta += delta;
-	    			
-	    			delta = (altitudes[i] - altitudes[i+1]);
-	    			altDelta += delta;
-	    			count++;
-	    		}
-    	}
-    	
-    	// calc avgs then units
-    	var altAvg;
-    	var distAvg;
-    	
-    	if ( count > 0 ) {
-    		altAvg = (altDelta/count) * METERS_TO_MILES;
-    		distAvg = (distDelta/count) * METERS_TO_MILES;
-    	} else {
-    		return 0;
-    	}
-
-    	var grade = altAvg/distAvg * 100;
-    	//System.println("grade%: " + grade);
-    	
-    	//sanity check
-    	if ( grade < -45 || grade > 45 ) {
-    		System.println("strange grade calc, adjusting: " + grade);
-    		return 0;
-    	}
-    	
-    	//System.println("calcGrade: exit");
-    	return grade;
+        //ascent calc
+        if ( info.timerState == Activity.TIMER_STATE_ON ) {
+        	var currAlt = info.altitude * METERS_TO_FEET;
+        	if ( lastAlt == null ) {
+        		lastAlt = currAlt;
+        	}
+        	if ( currAlt > lastAlt ) {
+        		eleGain += (currAlt - lastAlt);
+        		elevationGain = toInt(eleGain);
+        	}
+        	lastAlt = currAlt;
+        }
+        
     }
 
-	function calcGap(speed, grade) {
-		/*
-		From: https://www.runnersworld.com/advanced/a20820206/downhill-all-the-way/
-		Going Up
-		Every 1% upgrade slows your pace 3.3% (1/30th)
-		Every 100 feet of elevation gain slows you 6.6% of your average one mile pace (2% grade/mile).
-		Example: A race that climbs 300 feet would slow an 8-minute miler (3 x .066 x 8 x 60 seconds) = 94 seconds slower at the finish
-		
-		Going Down
-		Every 1% downgrade speeds your pace 55% of 3.3% = 1.8%
-		Every 100 feet of elevation descent speeds you 3.6% of your average one mile pace (2% grade/mile).
-		Example: A race that descends 300 feet would speed an 8-minute miler (3 x .036 x 8 x 60 seconds) = 55 seconds faster at the finish
-		*/
-
-		//calc speed in min per mile - comes in meters per second
-		//meters per hour = speed * 60 * 60
-		//miles per hour = speed * 60 * 60 * METERS_TO_MILES
-		//min per mile = 60 / miles per hour
-		
-		//System.println("calcGap: entered");
-		//System.println("speed / grade: " + speed + " / " + grade);
-		
-		if ( speed == null || speed == 0 ) {
-			//System.println("speed was null or 0");
-			return 0;
-		}
-		
-		//do unit conversion later
-		//var empspeed = 60 / (speed * 60 * 60 * METERS_TO_MILES);
-		
-		//	apply study metics to current pace
-		var gaspeed = 0;
-		
-		if ( grade > 0 ) {
-			//uphill case
-			//cost is 3.3% of pace for every 1% of grade
-			gaspeed = speed + (speed * ((grade * 3.3)/100) );
-		} else {
-			//downhill case
-			gaspeed = speed - (speed * ((grade * -1 * 1.8)/100) );
-		}
-		
-		//System.println("speed/grade/gap: " + speed + " / " + grade + " / " + gapace);
-		
-		//System.println("calcGap: exit");
-		//format for min and sec
-		return gaspeed;
-	}
 }
