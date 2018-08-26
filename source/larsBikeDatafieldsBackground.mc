@@ -1,6 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Application as App;
 using Toybox.Graphics as Gfx;
+using Toybox.Sensor as Sens; 
 
 class Background extends Ui.Drawable {
 

@@ -37,21 +37,13 @@ class larsBikeDatafieldsView extends Ui.DataField {
 			System.println("HRZones not populated, using defaults");
 		}
 		
-		HRZONE2 = HRZones[1];	
+		HRZONE2 = HRZones[1];	 
 		HRZONE3 = HRZones[2];	
 		HRZONE4 = HRZones[3];	
 		HRZONE5 = HRZones[4];	
 		
 		//System.println("HR Zones 2-5 for " + sport + ": " + HRZONE2 + " / " + HRZONE3 + " / " + HRZONE4 + " / " + HRZONE5);
 
-/*
-		//check for power
-		var sensorInfo = Sens.getInfo(); 
-		if (sensorInfo has :power && sensorInfo.power != null ){
-			System.println("we have power");
-			hasPower = 1;
-		} 
-    */
     }
     
     function onLayout(dc) {
@@ -90,9 +82,9 @@ class larsBikeDatafieldsView extends Ui.DataField {
    		//TODO how to alter HR text??
    	
    		//TODO pretend no power
-   		if ( hasPower ) {
+   		//if ( hasPower ) {
    			//TODO power
-   		} else {
+   		//} else {
    			f1_label = "Time";	
    			f1_value = fields.timer;	//TODO need secs?
    		
@@ -107,7 +99,7 @@ class larsBikeDatafieldsView extends Ui.DataField {
    		
    			f5_label = "HRavg 3min";	
    			f5_value = fields.avgHR3;
-   		}
+   		//}
    		 
     	//new layout 
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
@@ -138,6 +130,19 @@ class larsBikeDatafieldsView extends Ui.DataField {
 		//time and battery
         textL(dc, 75, 292, Graphics.FONT_TINY, fields.time);
         drawBattery(dc);
+        
+        //temperature
+        var temp = Application.getApp().getProperty(OSDATA);
+        if ( temp != null ) {
+        	temp = toInt(temp * 1.8 + 32);
+        } else {
+        	temp = "--";
+        }
+        textL(dc, 155, 292, Graphics.FONT_TINY, temp);
+        
+        //TODO do we have power?
+        textL(dc, 200, 292, Graphics.FONT_TINY, hasPower);
+        
         drawLayout(dc);
         return true;
     }
@@ -185,6 +190,12 @@ class larsBikeDatafieldsView extends Ui.DataField {
     }
 
     function compute(info) {
+    	if ( info != null && info.currentPower != null ) {
+    		hasPower = 1;
+    	} else {
+    		hasPower = 0;
+    	}
+		//System.println("hasPower: " + hasPower);
         fields.compute(info);
         return 1;
     }
@@ -206,4 +217,13 @@ class larsBikeDatafieldsView extends Ui.DataField {
             dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
         }
     }	
+    
+    function toInt(f) {
+    	//System.println("toInt: " + f);
+    	if (f == null ) {
+    		return "--";
+    	} else {
+   			return f.format("%d"); 
+   		}
+    }
 }
