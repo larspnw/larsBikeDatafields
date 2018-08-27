@@ -18,7 +18,7 @@ class larsBikeDatafieldsServiceDelegate extends Toybox.System.ServiceDelegate {
     function onTemporalEvent() {
    		var sensorInfo = Sens.getInfo(); 
    		var temp = sensorInfo.temperature; 
-        Sys.println("bg exit temp: "+temp);
+        //Sys.println("bg exit temp: "+temp);
         Background.exit(temp);
     }
     

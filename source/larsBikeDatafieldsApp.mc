@@ -10,6 +10,7 @@ var OSDATA="osdata";
 (:background)
 class larsBikeDatafieldsApp extends App.AppBase {
 
+	
     function initialize() {
         AppBase.initialize();
     }
@@ -32,24 +33,24 @@ class larsBikeDatafieldsApp extends App.AppBase {
     	} else {
     		System.println("****background not available on this device****");
     	}
-    	
+		    	
         return [ new larsBikeDatafieldsView() ];
     }
 
 	function onBackgroundData(data) {
-    	counter++;
-    	var now=System.getClockTime();
-    	var ts=now.hour+":"+now.min.format("%02d");
-        System.println("onBackgroundData="+data+" "+counter+" at "+ts);
+    	//counter++;
+    	//var now=System.getClockTime();
+    	//var ts=now.hour+":"+now.min.format("%02d");
+        //System.println("onBackgroundData="+data+" "+counter+" at "+ts);
         bgdata=data;
         App.getApp().setProperty(OSDATA,bgdata);
         //Ui.requestUpdate();
     }    
 
     function getServiceDelegate(){
-    	var now=System.getClockTime();
-    	var ts=now.hour+":"+now.min.format("%02d");    
-    	System.println("getServiceDelegate: "+ts);
+    	//var now=System.getClockTime();
+    	//var ts=now.hour+":"+now.min.format("%02d");    
+    	//System.println("getServiceDelegate: "+ts);
         return [new larsBikeDatafieldsServiceDelegate()];
     }
 }

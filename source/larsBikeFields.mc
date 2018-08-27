@@ -8,6 +8,7 @@ class larsBikeFields {
     hidden var lastHR = new [180];
     hidden var curPos;
     hidden var hrPos;
+    hidden var tempCount = 290; //used to check temperature every 5 min; first run is 10 seconds
     const METERS_TO_MILES = 0.000621371;
     const METERS_TO_FEET = 3.28;
     
@@ -23,6 +24,8 @@ class larsBikeFields {
     var elevationGain = 0;
     var eleGain = 0.0;
     var lastAlt = null;
+    var temperature = null;
+    var ipcTemp = null;
     
     function initialize() {
         for (var i = 0; i < lastSecs.size(); ++i) {
@@ -181,6 +184,18 @@ class larsBikeFields {
         	lastAlt = info.altitude;
         }
         
+        //temperature - check every 5 min
+        tempCount++;
+        if ( tempCount > 300 ) {
+        	tempCount = 0;
+        	var temp = Application.getApp().getProperty(OSDATA);
+        	if ( temp != null && temp instanceof Float ) {
+        		temp = toInt(temp * 1.8 + 32);
+        	} else {
+        		temp = "--";
+        	}
+        	temperature = temp;
+        	System.println("temperature: " + temperature);
+        }
     }
-
 }
