@@ -110,7 +110,7 @@ class larsBikeDatafieldsView extends Ui.DataField {
         textL(dc, 1, 46 , Graphics.FONT_NUMBER_MEDIUM,  f1_value);
         if (fields.timerSecs != null) {
             var length = dc.getTextWidthInPixels(f1_value, Graphics.FONT_NUMBER_MEDIUM);
-            textL(dc, 1 + length + 1, 56, Graphics.FONT_MEDIUM, fields.timerSecs);
+            textL(dc, 1 + length + 1, 53, Graphics.FONT_MEDIUM, fields.timerSecs);
             //System.println("display timerSecs " + fields.timerSecs + " length: " + length);
         }
         
@@ -128,13 +128,14 @@ class larsBikeDatafieldsView extends Ui.DataField {
         textC(dc, 172, 248, Graphics.FONT_NUMBER_MEDIUM,  f5_value);
         
 		//time and battery
-        textL(dc, 75, 292, Graphics.FONT_TINY, fields.time);
-        drawBattery(dc);
+        textL(dc, 55, 292, Graphics.FONT_TINY, fields.time);
+        textL(dc, 110, 292, Graphics.FONT_TINY, toInt(Sys.getSystemStats().battery) + "%");
+        //drawBattery(dc);
         
-        textL(dc, 155, 292, Graphics.FONT_TINY, fields.temperature);
+        textL(dc, 165, 292, Graphics.FONT_TINY, fields.temperature);
          
         //TODO do we have power?
-        textL(dc, 200, 292, Graphics.FONT_TINY, hasPower);
+        textL(dc, 210, 292, Graphics.FONT_TINY, hasPower);
         
         drawLayout(dc);
         return true;
