@@ -6,8 +6,10 @@ class larsBikeFields {
     // last 60 seconds - 'current speed' samples
     hidden var lastSecs = new [60];
     hidden var lastHR = new [180];
+    hidden var lastPower = new [3];
     hidden var curPos;
     hidden var hrPos;
+    hidden var powerPos;
     hidden var tempCount = 290; //used to check temperature every 5 min; first run is 10 seconds
     const METERS_TO_MILES = 0.000621371;
     const METERS_TO_FEET = 3.28;
@@ -23,9 +25,12 @@ class larsBikeFields {
     var trimp; //TODO implement
     var elevationGain = 0;
     var eleGain = 0.0;
+    var power3s = 0;
+    var speed;
     var lastAlt = null;
     var temperature = null;
     var ipcTemp = null;
+    var batteryPct = null;
     
     function initialize() {
         for (var i = 0; i < lastSecs.size(); ++i) {
@@ -35,9 +40,14 @@ class larsBikeFields {
         for (var i = 0; i < lastHR.size(); i++) {
        		lastHR[i] = 0; 
         }
+        
+        for (var i = 0; i < lastPower.size(); i++) {
+       		lastPower[i] = 0; 
+        }
 
         curPos = 0;
         hrPos = 0;
+        powerPos = 0;
     }
  
     function getAverage(a) {
@@ -77,9 +87,23 @@ class larsBikeFields {
         }
     }
 
+    function toSpeed(s) {
+  
+  		//starts as meters per second
+  		//to hour
+  		s = s * 3600 ;
+        if (Sys.getDeviceSettings().distanceUnits == Sys.UNIT_METRIC) {
+            s = s / 1000.0;
+        } else {
+            s = s / 1609.0;
+        }
+   		
+   		return s.format("%.1f"); 
+    }
+    
     function toDist(d) {
         if (d == null) {
-            return "0.00";
+            return "0.0";
         }
 
         var dist;
@@ -88,7 +112,7 @@ class larsBikeFields {
         } else {
             dist = d / 1609.0;
         }
-        return dist.format("%.2f");
+        return dist.format("%.1f");
     }
     
     function toStr(o) {
@@ -142,6 +166,13 @@ class larsBikeFields {
 
     function compute(info) {
 
+        if ( info.currentPower != null && info.currentPower > 0 ) {
+            var idx = powerPos % lastPower.size();
+            powerPos++;
+            lastPower[idx] = info.currentPower;
+        	power3s = toInt(getAverage(lastPower));
+        }
+        
        	if (info.currentHeartRate != null ) {
             var idx = hrPos % lastHR.size();
             hrPos++;
@@ -152,7 +183,7 @@ class larsBikeFields {
         hrN = info.currentHeartRate;
         avgHR3 = toInt(getAverage(lastHR));
         
-        //TODO power? pace10s =  fmtSecs(toPace(avg10s));
+        speed =  toSpeed(info.currentSpeed);
         time = fmtTime(Sys.getClockTime());
         dist = toDist(info.elapsedDistance);
         
@@ -184,7 +215,7 @@ class larsBikeFields {
         	lastAlt = info.altitude;
         }
         
-        //temperature - check every 5 min
+        //temperature and battery - check every 5 min
         tempCount++;
         if ( tempCount > 300 ) {
         	tempCount = 0;
@@ -195,7 +226,9 @@ class larsBikeFields {
         		temp = "--";
         	}
         	temperature = temp;
-        	System.println("temperature: " + temperature);
+        	//System.println("temperature: " + temperature);
+        
+        	batteryPct = toInt(Sys.getSystemStats().battery);
         }
     }
 }

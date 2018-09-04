@@ -81,10 +81,25 @@ class larsBikeDatafieldsView extends Ui.DataField {
    		//call compute to get fields and set 	
    		//TODO how to alter HR text??
    	
-   		//TODO pretend no power
-   		//if ( hasPower ) {
-   			//TODO power
-   		//} else {
+   		//decide on view based on power being present 
+   		if ( hasPower ) {
+   			//have power
+   			f1_label = "Time";	
+   			f1_value = fields.timer;	//TODO need secs?
+   		
+   			f2_label = "HR";	
+   			f2_value = fields.hr;
+
+   			f3_label = "Power 3s";	
+   			f3_value = fields.power3s; 
+   			
+   			f4_label = "Speed";	
+   			f4_value = fields.speed;
+   		
+   			f5_label = "Distance";	
+   			f5_value = fields.dist;
+   			
+   		} else {
    			f1_label = "Time";	
    			f1_value = fields.timer;	//TODO need secs?
    		
@@ -99,13 +114,15 @@ class larsBikeDatafieldsView extends Ui.DataField {
    		
    			f5_label = "HRavg 3min";	
    			f5_value = fields.avgHR3;
-   		//}
+   		}
    		 
     	//new layout 
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.clear();
 
 		//layout:
+		
+		//field 1 should only be time
         textC(dc, 57, 9, Graphics.FONT_XTINY, f1_label);
         textL(dc, 1, 46 , Graphics.FONT_NUMBER_MEDIUM,  f1_value);
         if (fields.timerSecs != null) {
@@ -129,13 +146,13 @@ class larsBikeDatafieldsView extends Ui.DataField {
         
 		//time and battery
         textL(dc, 55, 292, Graphics.FONT_TINY, fields.time);
-        textL(dc, 110, 292, Graphics.FONT_TINY, toInt(Sys.getSystemStats().battery) + "%");
+        textL(dc, 110, 292, Graphics.FONT_TINY, fields.batteryPct + "%");
         //drawBattery(dc);
         
         textL(dc, 165, 292, Graphics.FONT_TINY, fields.temperature);
          
-        //TODO do we have power?
-        textL(dc, 210, 292, Graphics.FONT_TINY, hasPower);
+        //do we have power?
+        //textL(dc, 210, 292, Graphics.FONT_TINY, hasPower);
         
         drawLayout(dc);
         return true;
