@@ -28,10 +28,11 @@ class larsBikeDatafieldsView extends Ui.DataField {
     function initialize() {
     	DataField.initialize();
         fields = new larsBikeFields(); 
-        
-        //get users HR zones
+
+		//get current profile        
 		var profile = Up.getProfile();
 		var sport = Up.getCurrentSport();
+        //get users HR zones
 		var HRZones = profile.getHeartRateZones(sport);
 		if (HRZones == null) {
 			System.println("HRZones not populated, using defaults");
@@ -42,7 +43,16 @@ class larsBikeDatafieldsView extends Ui.DataField {
 		HRZONE4 = HRZones[3];	
 		HRZONE5 = HRZones[4];	
 		
-		//System.println("HR Zones 2-5 for " + sport + ": " + HRZONE2 + " / " + HRZONE3 + " / " + HRZONE4 + " / " + HRZONE5);
+		System.println("HR Zones 2-5 for " + sport + ": " + HRZONE2 + " / " + HRZONE3 + " / " + HRZONE4 + " / " + HRZONE5);
+	
+		//get these fields from profile
+		var hrrest = profile.restingHeartRate;
+		var hrmax = HRZones[5];
+		var gender = profile.gender;
+		var lthr = HRZones[4];
+		fields.setProfileValues(hrrest, hrmax, gender, lthr);
+		
+		System.println("hrrest: " + hrrest + " / hrmax: " + hrmax + " / gender: " + gender + " / lthr: " + lthr);
 
     }
     
@@ -77,15 +87,13 @@ class larsBikeDatafieldsView extends Ui.DataField {
    				f4 distance
    				f5	trimp?
    		*/
-   		//TODO test for power existence and then set fields
-   		//call compute to get fields and set 	
-   		//TODO how to alter HR text??
+   		//test for power existence and then set fields
    	
    		//decide on view based on power being present 
    		if ( hasPower ) {
    			//have power
    			f1_label = "Time";	
-   			f1_value = fields.timer;	//TODO need secs?
+   			f1_value = fields.timer;	
    		
    			f2_label = "HR";	
    			f2_value = fields.hr;
@@ -101,7 +109,7 @@ class larsBikeDatafieldsView extends Ui.DataField {
    			
    		} else {
    			f1_label = "Time";	
-   			f1_value = fields.timer;	//TODO need secs?
+   			f1_value = fields.timer;	
    		
    			f2_label = "Tot Ascent";	
    			f2_value = fields.elevationGain; 
@@ -112,8 +120,10 @@ class larsBikeDatafieldsView extends Ui.DataField {
    			f4_label = "Distance";	
    			f4_value = fields.dist;
    		
-   			f5_label = "HRavg 3min";	
-   			f5_value = fields.avgHR3;
+   			//f5_label = "HRavg 3min";	
+   			//f5_value = fields.avgHR3;
+   			f5_label = "HRSS";	
+   			f5_value = fields.HRSS;
    		}
    		 
     	//new layout 

@@ -1,6 +1,6 @@
 using Toybox.Time as Time;
 using Toybox.System as Sys;
-
+using Toybox.Test as Test;
 
 class larsBikeFields {
     // last 60 seconds - 'current speed' samples
@@ -13,6 +13,8 @@ class larsBikeFields {
     hidden var tempCount = 290; //used to check temperature every 5 min; first run is 10 seconds
     const METERS_TO_MILES = 0.000621371;
     const METERS_TO_FEET = 3.28;
+   	const kMale = 1.92;
+   	const kFemale = 1.67;
     
     // public fields - usable after the user calls compute
     var dist;
@@ -22,7 +24,7 @@ class larsBikeFields {
     var timerSecs = null;
     var time;
     var avgHR3 = 0; 
-    var trimp; //TODO implement
+    var HRSS;
     var elevationGain = 0;
     var eleGain = 0.0;
     var power3s = 0;
@@ -31,6 +33,12 @@ class larsBikeFields {
     var temperature = null;
     var ipcTemp = null;
     var batteryPct = null;
+   	var HRRatLTHR ;
+   	var oneHourTrimpAtLthr ;
+   	var trimpTotal = 0; 
+   	var kValue = kMale; //based on gender
+   	var HRrest = 0;
+   	var HRmax = 0;
     
     function initialize() {
         for (var i = 0; i < lastSecs.size(); ++i) {
@@ -124,7 +132,6 @@ class larsBikeFields {
     }
     
     function toInt(f) {
-    	//System.println("toInt: " + f);
     	if (f == null ) {
     		return "--";
     	} else {
@@ -196,7 +203,6 @@ class larsBikeFields {
 
             if (elapsed >= 3600) {
                 timerSecs = (elapsed.toLong() % 60).format("%02d");
-                System.println("timerSecs: " + timerSecs); 
             }
         } 
         timer = fmtSecs(elapsed);  //will it be annoying to not have secs when > 1 hr
@@ -226,9 +232,93 @@ class larsBikeFields {
         		temp = "--";
         	}
         	temperature = temp;
-        	//System.println("temperature: " + temperature);
         
         	batteryPct = toInt(Sys.getSystemStats().battery);
         }
+        
+        //TRIMP calcs
+        if ( info.currentHeartRate != null ) {
+        	trimpTotal += getTrimp(info.currentHeartRate);
+        	//System.println("totalTrimp: " + trimpTotal);
+        }
+        
+        HRSS = toInt(getHRSS());
     }
+   
+   	function setProfileValues(hrrest, hrmax, gender, lthr) {
+	   	//get values in view init and set here
+	   	HRrest = hrrest;
+	   	HRmax = hrmax;
+	   	
+		//k - men 1.92 v woman 1.67 
+		if ( gender == 1 ) {
+			kValue = kMale;
+		} else {
+			kValue = kFemale;
+		}
+		
+    	/*	
+    	HRR@LTHR
+    		(lthr - hrrest) / (hrmax - hrrest)
+    	*/
+    	HRRatLTHR = (lthr - hrrest)*1.0 / (hrmax - hrrest)*1.0  ;
+    	
+    	//this is also a constant here - set one time
+    		// 60 min x HRR@LTHR x .64^(k x HRR@LTHR) 
+    		//believe units here are seconds
+    	oneHourTrimpAtLthr = 60*60*1.0 * HRRatLTHR * Math.pow(.64,kValue * HRRatLTHR);
+    	//System.println("oneHourTrimpAtLthr: " + oneHourTrimpAtLthr);
+   	}
+   	
+    /*
+    HRR
+   		HR - HRrest / hrmax - HRrest
+   	*/
+   	function getHRR(hr) {
+   		var hrr =  ( hr - HRrest ) *1.0 / (HRmax - HRrest) *1.0;	
+   		//System.println("getHRR: " + hrr);
+   		return hrr;	
+   	}
+   		
+   	/*
+   		 
+    TRIMP
+   		adding each time interval:
+   		HRR x .64^(k x HRR)
+   			careful with time units
+   	    caller will have to handle time units - making this additive for every second - based on how often compute is called		
+   		will be compute - will need to keep sum of trimp for activity
+   		or could calculate on the fly for every reading - need to keep avgHR then... only if compute called every second is not guaranteed
+   	*/
+   	function getTrimp(hr) {
+   		var hrr = getHRR(hr);
+   		var trimp =  hrr * Math.pow(.64, (kValue * hrr));
+   		//System.println("getTrimp: " + trimp);
+   		return trimp;
+   	}
+   			
+   	/*	
+    HRSS
+    	(TRIMP / ( 60 min x HRR@LTHR x .64^(k x HRR@LTHR) )) x 100
+    		this is literally 60min value - whatever time units are
+    	
+    	the caller - it's the compute method ultimately for the view	
+    */
+   function getHRSS() {
+   		//need activityTrimp - trimpTotal
+  		var hrss =  (trimpTotal / oneHourTrimpAtLthr) *100;
+  		//System.println("getHRSS: " + hrss);
+  		return hrss;
+   } 
+ 
+ /* 
+   (:test)
+   function testHRSS(logger) {
+  		System.println("testHRSS");
+  		logger.debug("calling getTrimp");
+  		getTrimp(123);
+  		Test.assertEqual(123, getTrimp(123)); 
+   }
+   */
+    
 }
