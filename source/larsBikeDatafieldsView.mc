@@ -47,6 +47,9 @@ class larsBikeDatafieldsView extends Ui.DataField {
 	
 		//get these fields from profile
 		var hrrest = profile.restingHeartRate;
+		if ( hrrest == 0 ) {
+			hrrest = 45;	//TODO
+		}
 		var hrmax = HRZones[5];
 		var gender = profile.gender;
 		var lthr = HRZones[4];

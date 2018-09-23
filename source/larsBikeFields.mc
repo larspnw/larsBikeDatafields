@@ -1,6 +1,6 @@
 using Toybox.Time as Time;
 using Toybox.System as Sys;
-using Toybox.Test as Test;
+//using Toybox.Test as Test;
 
 class larsBikeFields {
     // last 60 seconds - 'current speed' samples
@@ -30,9 +30,9 @@ class larsBikeFields {
     var power3s = 0;
     var speed;
     var lastAlt = null;
-    var temperature = null;
+    var temperature = 0;
     var ipcTemp = null;
-    var batteryPct = null;
+    var batteryPct = 0;
    	var HRRatLTHR ;
    	var oneHourTrimpAtLthr ;
    	var trimpTotal = 0; 
@@ -236,15 +236,17 @@ class larsBikeFields {
         	batteryPct = toInt(Sys.getSystemStats().battery);
         }
         
-        //TRIMP calcs
-        if ( info.currentHeartRate != null ) {
-        	trimpTotal += getTrimp(info.currentHeartRate);
-        	//System.println("totalTrimp: " + trimpTotal);
-        }
+        if ( info.timerState == Activity.TIMER_STATE_ON ) {
+        	//TRIMP calcs
+        	if ( info.currentHeartRate != null ) {
+        		trimpTotal += getTrimp(info.currentHeartRate);
+        		//System.println("totalTrimp: " + trimpTotal);
+        	}
         
-        HRSS = toInt(getHRSS());
+        	HRSS = toInt(getHRSS());
+        }
     }
-   
+  
    	function setProfileValues(hrrest, hrmax, gender, lthr) {
 	   	//get values in view init and set here
 	   	HRrest = hrrest;
@@ -267,7 +269,7 @@ class larsBikeFields {
     		// 60 min x HRR@LTHR x .64^(k x HRR@LTHR) 
     		//believe units here are seconds
     	oneHourTrimpAtLthr = 60*60*1.0 * HRRatLTHR * Math.pow(.64,kValue * HRRatLTHR);
-    	//System.println("oneHourTrimpAtLthr: " + oneHourTrimpAtLthr);
+    	System.println("oneHourTrimpAtLthr: " + oneHourTrimpAtLthr);
    	}
    	
     /*
@@ -296,7 +298,6 @@ class larsBikeFields {
    		//System.println("getTrimp: " + trimp);
    		return trimp;
    	}
-   			
    	/*	
     HRSS
     	(TRIMP / ( 60 min x HRR@LTHR x .64^(k x HRR@LTHR) )) x 100
@@ -310,7 +311,6 @@ class larsBikeFields {
   		//System.println("getHRSS: " + hrss);
   		return hrss;
    } 
- 
  /* 
    (:test)
    function testHRSS(logger) {
