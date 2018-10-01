@@ -3,6 +3,8 @@ using Toybox.Graphics;
 using Toybox.System as Sys;
 using Toybox.UserProfile as Up;
 using Toybox.Sensor as Sens;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class larsBikeDatafieldsView extends Ui.DataField {
 
@@ -26,6 +28,22 @@ class larsBikeDatafieldsView extends Ui.DataField {
   	var f5_value = 555; 
 
     function initialize() {
+  
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var dateString = Lang.format(
+    		"$1$:$2$:$3$ $4$ $5$ $6$",
+    		[
+        		today.hour,
+        		today.min,
+        		today.sec,
+        		today.day,
+        		today.month,
+        		today.year
+    		]
+		);
+		System.println("Initialize: " + dateString); 
+		
+    	var now = new Time.Moment(Time.now().value()); 
     	DataField.initialize();
         fields = new larsBikeFields(); 
 

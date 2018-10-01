@@ -24,7 +24,7 @@ class larsBikeFields {
     var timerSecs = null;
     var time;
     var avgHR3 = 0; 
-    var HRSS;
+    var HRSS = 0;
     var elevationGain = 0;
     var eleGain = 0.0;
     var power3s = 0;
@@ -96,7 +96,11 @@ class larsBikeFields {
     }
 
     function toSpeed(s) {
-  
+ 
+ 		if ( s == null ) {
+ 			return 0;
+ 		}
+ 			 
   		//starts as meters per second
   		//to hour
   		s = s * 3600 ;
@@ -160,6 +164,9 @@ class larsBikeFields {
     }
 
     function fmtTime(clock) {
+    	if ( clock == null ) {
+    		return "---";
+    	}
         var h = clock.hour;
         if (!Sys.getDeviceSettings().is24Hour) {
             if (h > 12) {
@@ -173,6 +180,7 @@ class larsBikeFields {
 
     function compute(info) {
 
+		//System.println("compute entered");
         if ( info.currentPower != null && info.currentPower > 0 ) {
             var idx = powerPos % lastPower.size();
             powerPos++;
@@ -180,12 +188,14 @@ class larsBikeFields {
         	power3s = toInt(getAverage(lastPower));
         }
         
+		//System.println("compute 1");
        	if (info.currentHeartRate != null ) {
             var idx = hrPos % lastHR.size();
             hrPos++;
             lastHR[idx] = info.currentHeartRate;
         }
          
+		//System.println("compute 2");
         hr = toStr(info.currentHeartRate);
         hrN = info.currentHeartRate;
         avgHR3 = toInt(getAverage(lastHR));
@@ -194,6 +204,7 @@ class larsBikeFields {
         time = fmtTime(Sys.getClockTime());
         dist = toDist(info.elapsedDistance);
         
+		//System.println("compute 3");
         var elapsed = info.timerTime;
         //elapsed = 60*23*1000 + info.timerTime;
         //elapsed = 60*60*3*1000 + info.timerTime;
@@ -207,6 +218,7 @@ class larsBikeFields {
         } 
         timer = fmtSecs(elapsed);  //will it be annoying to not have secs when > 1 hr
         
+		//System.println("compute 4");
         //avgHR = toStr(info.averageHeartRate);
         
         //ascent calc
@@ -221,6 +233,7 @@ class larsBikeFields {
         	lastAlt = info.altitude;
         }
         
+		//System.println("compute 5");
         //temperature and battery - check every 5 min
         tempCount++;
         if ( tempCount > 300 ) {
@@ -236,6 +249,7 @@ class larsBikeFields {
         	batteryPct = toInt(Sys.getSystemStats().battery);
         }
         
+		//System.println("compute 6");
         if ( info.timerState == Activity.TIMER_STATE_ON ) {
         	//TRIMP calcs
         	if ( info.currentHeartRate != null ) {
@@ -243,8 +257,11 @@ class larsBikeFields {
         		//System.println("totalTrimp: " + trimpTotal);
         	}
         
+		//System.println("compute 7");
         	HRSS = toInt(getHRSS());
         }
+        
+        //System.println("Compute exit");
     }
   
    	function setProfileValues(hrrest, hrmax, gender, lthr) {
