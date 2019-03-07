@@ -8,6 +8,7 @@ using Toybox.Time.Gregorian;
 
 class larsBikeDatafieldsView extends Ui.DataField {
 
+	var APPVERSION = "v1.1";
 	hidden var fields;
 	
 	//all are maxes except zone2 which is a min for zone 2 
@@ -177,10 +178,11 @@ class larsBikeDatafieldsView extends Ui.DataField {
         
 		//time and battery
         textL(dc, 55, 292, Graphics.FONT_TINY, fields.time);
-        textL(dc, 110, 292, Graphics.FONT_TINY, fields.batteryPct + "%");
+        //textL(dc, 110, 292, Graphics.FONT_TINY, fields.batteryPct + "%");
+        textL(dc, 110, 292, Graphics.FONT_TINY, APPVERSION );
         //drawBattery(dc);
         
-        textL(dc, 165, 292, Graphics.FONT_TINY, fields.temperature);
+        //textL(dc, 165, 292, Graphics.FONT_TINY, fields.temperature);
          
         //do we have power?
         //textL(dc, 210, 292, Graphics.FONT_TINY, hasPower);

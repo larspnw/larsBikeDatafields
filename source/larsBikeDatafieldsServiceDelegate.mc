@@ -16,10 +16,12 @@ class larsBikeDatafieldsServiceDelegate extends Toybox.System.ServiceDelegate {
 
 	//doing this for temperature
     function onTemporalEvent() {
+    /* having battery drain issues so removing
    		var sensorInfo = Sens.getInfo(); 
    		var temp = sensorInfo.temperature; 
         //Sys.println("bg exit temp: "+temp);
         Background.exit(temp);
+    */
     }
     
 

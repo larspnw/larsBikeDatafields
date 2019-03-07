@@ -1,557 +1,536 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
     <pcToLineNum>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="30" pc="268435866" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="32" pc="268435870" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="33" pc="268435914" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="44" pc="268436040" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="46" pc="268436066" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="47" pc="268436118" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="48" pc="268436136" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="51" pc="268436166" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="52" pc="268436183" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="54" pc="268436200" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="55" pc="268436215" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="56" pc="268436222" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="59" pc="268436248" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="60" pc="268436264" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="61" pc="268436280" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="62" pc="268436296" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="64" pc="268436312" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="67" pc="268436398" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="68" pc="268436408" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="69" pc="268436419" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="71" pc="268436429" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="72" pc="268436439" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="73" pc="268436449" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="74" pc="268436459" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="3" lineNum="76" pc="268436485" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="4" lineNum="80" pc="268436539" symbol="onLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="83" pc="268436544" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="84" pc="268436548" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="86" pc="268436584" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="87" pc="268436616" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="88" pc="268436648" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="90" pc="268436680" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="5" lineNum="91" pc="268436712" symbol="drawLayout"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="94" pc="268436745" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="114" pc="268436749" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="116" pc="268436760" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="117" pc="268436773" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="119" pc="268436795" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="120" pc="268436808" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="122" pc="268436830" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="123" pc="268436843" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="125" pc="268436865" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="126" pc="268436878" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="128" pc="268436900" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="129" pc="268436913" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="132" pc="268436938" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="133" pc="268436951" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="135" pc="268436973" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="136" pc="268436986" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="138" pc="268437008" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="139" pc="268437021" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="141" pc="268437043" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="142" pc="268437056" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="146" pc="268437078" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="147" pc="268437091" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="151" pc="268437113" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="152" pc="268437149" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="157" pc="268437161" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="158" pc="268437205" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="159" pc="268437249" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="160" pc="268437268" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="161" pc="268437301" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="165" pc="268437363" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="166" pc="268437407" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="168" pc="268437451" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="169" pc="268437495" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="170" pc="268437539" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="172" pc="268437600" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="173" pc="268437644" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="175" pc="268437688" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="176" pc="268437732" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="179" pc="268437776" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="180" pc="268437826" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="183" pc="268437882" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="188" pc="268437932" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="6" lineNum="189" pc="268437946" symbol="onUpdate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="193" pc="268437950" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="194" pc="268437954" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="195" pc="268437961" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="198" pc="268437970" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="199" pc="268437984" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="200" pc="268437993" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="201" pc="268438007" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="202" pc="268438016" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="203" pc="268438030" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="204" pc="268438039" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="205" pc="268438053" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="7" lineNum="207" pc="268438062" symbol="getHrZone"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="211" pc="268438069" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="212" pc="268438073" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="213" pc="268438096" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="214" pc="268438128" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="216" pc="268438160" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="217" pc="268438174" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="218" pc="268438185" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="219" pc="268438202" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="220" pc="268438213" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="222" pc="268438230" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="224" pc="268438256" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="225" pc="268438287" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="227" pc="268438298" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="228" pc="268438309" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="8" lineNum="230" pc="268438319" symbol="drawBattery"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="234" pc="268438352" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="235" pc="268438356" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="236" pc="268438379" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="238" pc="268438395" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="241" pc="268438408" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="9" lineNum="242" pc="268438428" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="10" lineNum="245" pc="268438435" symbol="textL"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="10" lineNum="246" pc="268438439" symbol="textL"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="10" lineNum="247" pc="268438446" symbol="textL"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="11" lineNum="251" pc="268438495" symbol="textC"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="11" lineNum="252" pc="268438499" symbol="textC"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="11" lineNum="253" pc="268438506" symbol="textC"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="12" lineNum="257" pc="268438555" symbol="textR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="12" lineNum="258" pc="268438559" symbol="textR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="12" lineNum="259" pc="268438566" symbol="textR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="13" lineNum="263" pc="268438615" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="13" lineNum="265" pc="268438619" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="13" lineNum="266" pc="268438626" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsView.mc" id="13" lineNum="268" pc="268438635" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="43" pc="268438653" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="44" pc="268438657" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="45" pc="268438687" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="48" pc="268438716" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="49" pc="268438746" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="52" pc="268438775" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="53" pc="268438805" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="56" pc="268438834" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="57" pc="268438847" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="15" lineNum="58" pc="268438860" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="61" pc="268438874" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="62" pc="268438878" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="63" pc="268438885" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="64" pc="268438892" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="65" pc="268438916" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="66" pc="268438930" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="67" pc="268438940" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="70" pc="268438966" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="71" pc="268438977" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="16" lineNum="73" pc="268438986" symbol="getAverage"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="77" pc="268438989" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="78" pc="268438993" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="79" pc="268439000" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="80" pc="268439011" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="82" pc="268439030" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="83" pc="268439037" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="84" pc="268439044" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="85" pc="268439059" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="86" pc="268439075" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="87" pc="268439089" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="88" pc="268439099" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="91" pc="268439125" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="92" pc="268439136" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="17" lineNum="94" pc="268439145" symbol="getNAvg"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="98" pc="268439148" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="100" pc="268439152" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="101" pc="268439159" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="106" pc="268439168" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="107" pc="268439178" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="108" pc="268439215" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="110" pc="268439228" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="18" lineNum="113" pc="268439238" symbol="toSpeed"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="116" pc="268439256" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="117" pc="268439260" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="118" pc="268439267" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="121" pc="268439276" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="122" pc="268439276" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="123" pc="268439313" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="125" pc="268439326" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="19" lineNum="127" pc="268439336" symbol="toDist"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="20" lineNum="130" pc="268439354" symbol="toStr"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="20" lineNum="131" pc="268439358" symbol="toStr"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="20" lineNum="132" pc="268439365" symbol="toStr"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="20" lineNum="134" pc="268439377" symbol="toStr"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="21" lineNum="138" pc="268439384" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="21" lineNum="139" pc="268439388" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="21" lineNum="140" pc="268439395" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="21" lineNum="142" pc="268439404" symbol="toInt"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="146" pc="268439422" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="147" pc="268439426" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="148" pc="268439433" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="151" pc="268439442" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="152" pc="268439455" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="153" pc="268439465" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="154" pc="268439478" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="155" pc="268439488" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="156" pc="268439501" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="157" pc="268439501" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="158" pc="268439512" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="160" pc="268439548" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="22" lineNum="163" pc="268439581" symbol="fmtSecs"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="166" pc="268439585" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="167" pc="268439589" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="168" pc="268439596" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="170" pc="268439605" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="171" pc="268439615" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="172" pc="268439640" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="173" pc="268439651" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="174" pc="268439664" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="175" pc="268439675" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="23" lineNum="178" pc="268439691" symbol="fmtTime"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="181" pc="268439730" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="184" pc="268439734" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="185" pc="268439767" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="186" pc="268439795" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="187" pc="268439814" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="188" pc="268439833" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="192" pc="268439874" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="193" pc="268439887" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="194" pc="268439915" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="195" pc="268439934" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="199" pc="268439956" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="200" pc="268439983" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="201" pc="268439999" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="203" pc="268440037" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="204" pc="268440064" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="205" pc="268440098" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="208" pc="268440125" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="212" pc="268440135" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="213" pc="268440142" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="215" pc="268440152" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="216" pc="268440163" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="219" pc="268440208" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="225" pc="268440229" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="226" pc="268440255" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="227" pc="268440268" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="229" pc="268440287" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="230" pc="268440307" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="231" pc="268440338" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="233" pc="268440377" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="238" pc="268440396" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="239" pc="268440415" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="240" pc="268440432" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="241" pc="268440445" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="242" pc="268440481" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="243" pc="268440505" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="245" pc="268440535" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="247" pc="268440542" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="249" pc="268440552" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="253" pc="268440595" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="255" pc="268440621" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="256" pc="268440634" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="24" lineNum="261" pc="268440670" symbol="compute"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="267" pc="268440704" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="269" pc="268440708" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="270" pc="268440718" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="273" pc="268440728" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="274" pc="268440739" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="276" pc="268440758" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="283" pc="268440774" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="288" pc="268440805" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="25" lineNum="289" pc="268440867" symbol="setProfileValues"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="26" lineNum="296" pc="268440900" symbol="getHRR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="26" lineNum="297" pc="268440904" symbol="getHRR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="26" lineNum="299" pc="268440947" symbol="getHRR"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="27" lineNum="312" pc="268440951" symbol="getTrimp"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="27" lineNum="313" pc="268440955" symbol="getTrimp"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="27" lineNum="314" pc="268440970" symbol="getTrimp"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="27" lineNum="316" pc="268441008" symbol="getTrimp"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="28" lineNum="325" pc="268441012" symbol="getHRSS"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="28" lineNum="327" pc="268441016" symbol="getHRSS"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeFields.mc" id="28" lineNum="329" pc="268441041" symbol="getHRSS"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="30" lineNum="12" pc="268435456" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="30" lineNum="13" pc="268435460" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="31" lineNum="18" pc="268435483" symbol="onTemporalEvent"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="31" lineNum="19" pc="268435487" symbol="onTemporalEvent"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="31" lineNum="20" pc="268435504" symbol="onTemporalEvent"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsServiceDelegate.mc" id="31" lineNum="22" pc="268435514" symbol="onTemporalEvent"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="33" lineNum="14" pc="268435533" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="33" lineNum="15" pc="268435537" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="34" lineNum="19" pc="268435556" symbol="onStart"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="35" lineNum="23" pc="268435561" symbol="onStop"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="27" pc="268435566" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="30" pc="268435570" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="31" pc="268435593" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="32" pc="268435616" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="34" pc="268435668" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="36" lineNum="37" pc="268435691" symbol="getInitialView"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="37" lineNum="40" pc="268435729" symbol="onBackgroundData"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="37" lineNum="45" pc="268435733" symbol="onBackgroundData"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="37" lineNum="46" pc="268435743" symbol="onBackgroundData"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="38" lineNum="50" pc="268435785" symbol="getServiceDelegate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsApp.mc" id="38" lineNum="54" pc="268435789" symbol="getServiceDelegate"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="40" lineNum="10" pc="268441045" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="40" lineNum="11" pc="268441049" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="40" lineNum="15" pc="268441070" symbol="initialize"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="41" lineNum="18" pc="268441091" symbol="setColor"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="41" lineNum="19" pc="268441095" symbol="setColor"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="42" lineNum="22" pc="268441106" symbol="draw"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="42" lineNum="23" pc="268441110" symbol="draw"/>
-        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/source/larsBikeDatafieldsBackground.mc" id="42" lineNum="24" pc="268441142" symbol="draw"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="21" pc="268441155" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="25" pc="268441167" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="26" pc="268441191" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="27" pc="268441354" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="28" pc="268441379" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="29" pc="268441431" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="30" pc="268441477" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="31" pc="268441640" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="32" pc="268441665" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="33" pc="268441717" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="49" lineNum="36" pc="268441763" symbol="MainLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="50" lineNum="47" pc="268441801" symbol="TopLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="50" lineNum="51" pc="268441813" symbol="TopLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="50" lineNum="52" pc="268441837" symbol="TopLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="50" lineNum="53" pc="268441970" symbol="TopLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="50" lineNum="56" pc="268442103" symbol="TopLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="51" lineNum="67" pc="268442141" symbol="TopRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="51" lineNum="71" pc="268442153" symbol="TopRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="51" lineNum="72" pc="268442177" symbol="TopRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="51" lineNum="73" pc="268442310" symbol="TopRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="51" lineNum="76" pc="268442443" symbol="TopRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="52" lineNum="87" pc="268442481" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="52" lineNum="91" pc="268442493" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="52" lineNum="92" pc="268442517" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="52" lineNum="93" pc="268442650" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="52" lineNum="96" pc="268442783" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="53" lineNum="107" pc="268442821" symbol="BottomRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="53" lineNum="111" pc="268442833" symbol="BottomRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="53" lineNum="112" pc="268442857" symbol="BottomRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="53" lineNum="113" pc="268442990" symbol="BottomRightLayout"/>
-        <entry filename="/Users/larry/eclipse/java-photon/Eclipse.app/Contents/MacOS/Rez" id="53" lineNum="116" pc="268443123" symbol="BottomRightLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="31" pc="268435700" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="33" pc="268435704" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="34" pc="268435748" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="45" pc="268435874" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="47" pc="268435900" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="48" pc="268435952" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="49" pc="268435970" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="52" pc="268436000" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="53" pc="268436017" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="55" pc="268436034" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="56" pc="268436049" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="57" pc="268436056" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="60" pc="268436082" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="61" pc="268436098" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="62" pc="268436114" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="63" pc="268436130" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="65" pc="268436146" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="68" pc="268436232" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="69" pc="268436242" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="70" pc="268436253" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="72" pc="268436263" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="73" pc="268436273" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="74" pc="268436283" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="75" pc="268436293" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="77" pc="268436319" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="81" pc="268436373" symbol="onLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="84" pc="268436378" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="85" pc="268436382" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="87" pc="268436418" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="88" pc="268436450" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="89" pc="268436482" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="91" pc="268436514" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="92" pc="268436546" symbol="drawLayout"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="95" pc="268436579" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="115" pc="268436583" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="117" pc="268436594" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="118" pc="268436607" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="120" pc="268436629" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="121" pc="268436642" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="123" pc="268436664" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="124" pc="268436677" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="126" pc="268436699" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="127" pc="268436712" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="129" pc="268436734" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="130" pc="268436747" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="133" pc="268436772" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="134" pc="268436785" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="136" pc="268436807" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="137" pc="268436820" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="139" pc="268436842" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="140" pc="268436855" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="142" pc="268436877" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="143" pc="268436890" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="147" pc="268436912" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="148" pc="268436925" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="152" pc="268436947" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="153" pc="268436983" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="158" pc="268436995" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="159" pc="268437039" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="160" pc="268437083" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="161" pc="268437102" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="162" pc="268437135" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="166" pc="268437197" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="167" pc="268437241" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="169" pc="268437285" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="170" pc="268437329" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="171" pc="268437373" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="173" pc="268437434" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="174" pc="268437478" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="176" pc="268437522" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="177" pc="268437566" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="180" pc="268437610" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="182" pc="268437660" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="190" pc="268437704" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="191" pc="268437718" symbol="onUpdate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="195" pc="268437722" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="196" pc="268437726" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="197" pc="268437733" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="200" pc="268437742" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="201" pc="268437756" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="202" pc="268437765" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="203" pc="268437779" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="204" pc="268437788" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="205" pc="268437802" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="206" pc="268437811" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="207" pc="268437825" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="209" pc="268437834" symbol="getHrZone"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="213" pc="268437841" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="214" pc="268437845" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="215" pc="268437868" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="216" pc="268437900" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="218" pc="268437932" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="219" pc="268437946" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="220" pc="268437957" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="221" pc="268437974" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="222" pc="268437985" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="224" pc="268438002" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="226" pc="268438028" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="227" pc="268438059" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="229" pc="268438070" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="230" pc="268438081" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="232" pc="268438091" symbol="drawBattery"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="236" pc="268438124" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="237" pc="268438128" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="238" pc="268438151" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="240" pc="268438167" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="243" pc="268438180" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="244" pc="268438200" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="247" pc="268438207" symbol="textL"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="248" pc="268438211" symbol="textL"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="249" pc="268438218" symbol="textL"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="253" pc="268438267" symbol="textC"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="254" pc="268438271" symbol="textC"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="255" pc="268438278" symbol="textC"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="259" pc="268438327" symbol="textR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="260" pc="268438331" symbol="textR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="261" pc="268438338" symbol="textR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="265" pc="268438387" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="267" pc="268438391" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="268" pc="268438398" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsView.mc" lineNum="270" pc="268438407" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="43" pc="268438425" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="44" pc="268438429" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="45" pc="268438459" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="48" pc="268438488" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="49" pc="268438518" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="52" pc="268438547" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="53" pc="268438577" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="56" pc="268438606" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="57" pc="268438619" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="58" pc="268438632" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="61" pc="268438646" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="62" pc="268438650" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="63" pc="268438657" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="64" pc="268438664" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="65" pc="268438688" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="66" pc="268438702" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="67" pc="268438712" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="70" pc="268438738" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="71" pc="268438749" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="73" pc="268438758" symbol="getAverage"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="77" pc="268438761" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="78" pc="268438765" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="79" pc="268438772" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="80" pc="268438783" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="82" pc="268438802" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="83" pc="268438809" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="84" pc="268438816" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="85" pc="268438831" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="86" pc="268438847" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="87" pc="268438861" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="88" pc="268438871" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="91" pc="268438897" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="92" pc="268438908" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="94" pc="268438917" symbol="getNAvg"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="98" pc="268438920" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="100" pc="268438924" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="101" pc="268438931" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="106" pc="268438940" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="107" pc="268438950" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="108" pc="268438987" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="110" pc="268439000" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="113" pc="268439010" symbol="toSpeed"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="116" pc="268439028" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="117" pc="268439032" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="118" pc="268439039" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="121" pc="268439048" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="122" pc="268439048" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="123" pc="268439085" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="125" pc="268439098" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="127" pc="268439108" symbol="toDist"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="130" pc="268439126" symbol="toStr"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="131" pc="268439130" symbol="toStr"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="132" pc="268439137" symbol="toStr"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="134" pc="268439149" symbol="toStr"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="138" pc="268439156" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="139" pc="268439160" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="140" pc="268439167" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="142" pc="268439176" symbol="toInt"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="146" pc="268439194" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="147" pc="268439198" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="148" pc="268439205" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="151" pc="268439214" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="152" pc="268439227" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="153" pc="268439237" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="154" pc="268439250" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="155" pc="268439260" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="156" pc="268439273" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="157" pc="268439273" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="158" pc="268439284" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="160" pc="268439320" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="163" pc="268439353" symbol="fmtSecs"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="166" pc="268439357" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="167" pc="268439361" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="168" pc="268439368" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="170" pc="268439377" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="171" pc="268439387" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="172" pc="268439412" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="173" pc="268439423" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="174" pc="268439436" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="175" pc="268439447" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="178" pc="268439463" symbol="fmtTime"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="181" pc="268439502" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="184" pc="268439506" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="185" pc="268439539" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="186" pc="268439567" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="187" pc="268439586" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="188" pc="268439605" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="192" pc="268439646" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="193" pc="268439659" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="194" pc="268439687" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="195" pc="268439706" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="199" pc="268439728" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="200" pc="268439755" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="201" pc="268439771" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="203" pc="268439809" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="204" pc="268439836" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="205" pc="268439870" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="208" pc="268439897" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="212" pc="268439907" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="213" pc="268439914" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="215" pc="268439924" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="216" pc="268439935" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="219" pc="268439980" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="225" pc="268440001" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="226" pc="268440027" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="227" pc="268440040" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="229" pc="268440059" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="230" pc="268440079" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="231" pc="268440110" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="233" pc="268440149" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="255" pc="268440168" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="257" pc="268440194" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="258" pc="268440207" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="263" pc="268440243" symbol="compute"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="269" pc="268440277" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="271" pc="268440281" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="272" pc="268440291" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="275" pc="268440301" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="276" pc="268440312" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="278" pc="268440331" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="285" pc="268440347" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="290" pc="268440378" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="291" pc="268440440" symbol="setProfileValues"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="298" pc="268440473" symbol="getHRR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="299" pc="268440477" symbol="getHRR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="301" pc="268440520" symbol="getHRR"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="314" pc="268440524" symbol="getTrimp"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="315" pc="268440528" symbol="getTrimp"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="316" pc="268440543" symbol="getTrimp"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="318" pc="268440581" symbol="getTrimp"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="327" pc="268440585" symbol="getHRSS"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="329" pc="268440589" symbol="getHRSS"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeFields.mc" lineNum="331" pc="268440614" symbol="getHRSS"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsServiceDelegate.mc" lineNum="12" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsServiceDelegate.mc" lineNum="13" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsServiceDelegate.mc" lineNum="18" pc="268435483" symbol="onTemporalEvent"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="14" pc="268435488" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="15" pc="268435492" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="19" pc="268435511" symbol="onStart"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="23" pc="268435516" symbol="onStop"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="27" pc="268435521" symbol="getInitialView"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="40" pc="268435525" symbol="getInitialView"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="43" pc="268435563" symbol="onBackgroundData"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="48" pc="268435567" symbol="onBackgroundData"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="49" pc="268435577" symbol="onBackgroundData"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="53" pc="268435619" symbol="getServiceDelegate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsApp.mc" lineNum="57" pc="268435623" symbol="getServiceDelegate"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="10" pc="268440618" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="11" pc="268440622" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="15" pc="268440643" symbol="initialize"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="18" pc="268440664" symbol="setColor"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="19" pc="268440668" symbol="setColor"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="22" pc="268440679" symbol="draw"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="23" pc="268440683" symbol="draw"/>
+        <entry filename="/Users/larry/eclipse-workspace/larsBikeDatafields/./source/larsBikeDatafieldsBackground.mc" lineNum="24" pc="268440715" symbol="draw"/>
+        <entry filename="Rez" lineNum="19" pc="268440728" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="23" pc="268440740" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="24" pc="268440764" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="25" pc="268440927" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="26" pc="268440952" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="27" pc="268441004" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="28" pc="268441050" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="29" pc="268441213" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="30" pc="268441238" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="31" pc="268441290" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="34" pc="268441336" symbol="MainLayout"/>
+        <entry filename="Rez" lineNum="43" pc="268441374" symbol="TopLeftLayout"/>
+        <entry filename="Rez" lineNum="47" pc="268441386" symbol="TopLeftLayout"/>
+        <entry filename="Rez" lineNum="48" pc="268441410" symbol="TopLeftLayout"/>
+        <entry filename="Rez" lineNum="49" pc="268441543" symbol="TopLeftLayout"/>
+        <entry filename="Rez" lineNum="52" pc="268441676" symbol="TopLeftLayout"/>
+        <entry filename="Rez" lineNum="61" pc="268441714" symbol="TopRightLayout"/>
+        <entry filename="Rez" lineNum="65" pc="268441726" symbol="TopRightLayout"/>
+        <entry filename="Rez" lineNum="66" pc="268441750" symbol="TopRightLayout"/>
+        <entry filename="Rez" lineNum="67" pc="268441883" symbol="TopRightLayout"/>
+        <entry filename="Rez" lineNum="70" pc="268442016" symbol="TopRightLayout"/>
+        <entry filename="Rez" lineNum="79" pc="268442054" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" lineNum="83" pc="268442066" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" lineNum="84" pc="268442090" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" lineNum="85" pc="268442223" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" lineNum="88" pc="268442356" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" lineNum="97" pc="268442394" symbol="BottomRightLayout"/>
+        <entry filename="Rez" lineNum="101" pc="268442406" symbol="BottomRightLayout"/>
+        <entry filename="Rez" lineNum="102" pc="268442430" symbol="BottomRightLayout"/>
+        <entry filename="Rez" lineNum="103" pc="268442563" symbol="BottomRightLayout"/>
+        <entry filename="Rez" lineNum="106" pc="268442696" symbol="BottomRightLayout"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="21" symbol="hasPower"/>
-        <entry field="true" id="65" symbol="HRSS"/>
-        <entry id="79" method="true" symbol="getNAvg"/>
+        <entry field="true" id="22" symbol="hasPower"/>
+        <entry field="true" id="67" symbol="HRSS"/>
+        <entry id="81" method="true" symbol="getNAvg"/>
         <entry field="true" id="13" symbol="bgdata"/>
-        <entry id="84" method="true" symbol="fmtTime"/>
-        <entry field="true" id="50" symbol="curPos"/>
-        <entry field="true" id="20" symbol="HRZONE5"/>
-        <entry field="true" id="19" symbol="HRZONE4"/>
-        <entry field="true" id="18" symbol="HRZONE3"/>
-        <entry field="true" id="17" symbol="HRZONE2"/>
+        <entry id="86" method="true" symbol="fmtTime"/>
+        <entry field="true" id="52" symbol="curPos"/>
+        <entry field="true" id="21" symbol="HRZONE5"/>
+        <entry field="true" id="20" symbol="HRZONE4"/>
+        <entry field="true" id="19" symbol="HRZONE3"/>
+        <entry field="true" id="18" symbol="HRZONE2"/>
         <entry id="11" object="true" symbol="larsBikeDatafieldsServiceDelegate"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="52" symbol="powerPos"/>
-        <entry id="33" method="true" symbol="drawBattery"/>
-        <entry field="true" id="62" symbol="timerSecs"/>
-        <entry id="83" method="true" symbol="fmtSecs"/>
-        <entry id="42" method="true" symbol="TopLeftLayout"/>
-        <entry id="82" method="true" symbol="toStr"/>
+        <entry field="true" id="54" symbol="powerPos"/>
+        <entry id="35" method="true" symbol="drawBattery"/>
+        <entry field="true" id="64" symbol="timerSecs"/>
+        <entry id="85" method="true" symbol="fmtSecs"/>
+        <entry id="44" method="true" symbol="TopLeftLayout"/>
+        <entry id="84" method="true" symbol="toStr"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="8388645" module="true" symbol="Time"/>
-        <entry field="true" id="48" symbol="lastHR"/>
-        <entry field="true" id="56" symbol="kMale"/>
-        <entry field="true" id="23" symbol="f2_label"/>
+        <entry field="true" id="50" symbol="lastHR"/>
+        <entry field="true" id="58" symbol="kMale"/>
+        <entry field="true" id="24" symbol="f2_label"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="22" symbol="f1_label"/>
+        <entry field="true" id="23" symbol="f1_label"/>
         <entry field="true" id="8389138" symbol="label"/>
-        <entry field="true" id="75" symbol="kValue"/>
-        <entry field="true" id="31" symbol="f5_value"/>
-        <entry id="44" method="true" symbol="BottomLeftLayout"/>
+        <entry field="true" id="77" symbol="kValue"/>
+        <entry field="true" id="32" symbol="f5_value"/>
+        <entry id="46" method="true" symbol="BottomLeftLayout"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="14" symbol="OSDATA"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="41" method="true" symbol="MainLayout"/>
+        <entry id="43" method="true" symbol="MainLayout"/>
         <entry id="15" object="true" symbol="larsBikeDatafieldsApp"/>
-        <entry id="88" method="true" symbol="getHRSS"/>
-        <entry field="true" id="60" symbol="hrN"/>
+        <entry id="90" method="true" symbol="getHRSS"/>
+        <entry field="true" id="62" symbol="hrN"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="85" method="true" symbol="setProfileValues"/>
+        <entry id="87" method="true" symbol="setProfileValues"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="72" symbol="HRRatLTHR"/>
-        <entry id="37" method="true" symbol="toInt"/>
-        <entry field="true" id="77" symbol="HRmax"/>
-        <entry id="86" method="true" symbol="getHRR"/>
+        <entry field="true" id="74" symbol="HRRatLTHR"/>
+        <entry id="39" method="true" symbol="toInt"/>
+        <entry field="true" id="79" symbol="HRmax"/>
+        <entry id="88" method="true" symbol="getHRR"/>
         <entry field="true" id="8389130" symbol="mColor"/>
-        <entry field="true" id="61" symbol="timer"/>
-        <entry field="true" id="54" symbol="METERS_TO_MILES"/>
+        <entry field="true" id="63" symbol="timer"/>
+        <entry field="true" id="56" symbol="METERS_TO_MILES"/>
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="46" symbol="AppName"/>
-        <entry id="80" method="true" symbol="toSpeed"/>
+        <entry field="true" id="48" symbol="AppName"/>
+        <entry id="82" method="true" symbol="toSpeed"/>
         <entry id="9" object="true" symbol="larsBikeDatafieldsView"/>
-        <entry field="true" id="69" symbol="lastAlt"/>
-        <entry field="true" id="55" symbol="METERS_TO_FEET"/>
-        <entry field="true" id="26" symbol="f5_label"/>
+        <entry field="true" id="71" symbol="lastAlt"/>
+        <entry field="true" id="57" symbol="METERS_TO_FEET"/>
+        <entry field="true" id="27" symbol="f5_label"/>
         <entry field="true" id="8388962" symbol="temperature"/>
-        <entry field="true" id="25" symbol="f4_label"/>
+        <entry field="true" id="26" symbol="f4_label"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="24" symbol="f3_label"/>
-        <entry field="true" id="40" symbol="LauncherIcon"/>
-        <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="32" method="true" symbol="getHrZone"/>
+        <entry field="true" id="25" symbol="f3_label"/>
+        <entry field="true" id="42" symbol="LauncherIcon"/>
+        <entry id="34" method="true" symbol="getHrZone"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="71" symbol="batteryPct"/>
+        <entry field="true" id="73" symbol="batteryPct"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389137" method="true" symbol="compute"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry id="36" method="true" symbol="textR"/>
-        <entry id="34" method="true" symbol="textL"/>
-        <entry id="35" method="true" symbol="textC"/>
-        <entry field="true" id="70" symbol="ipcTemp"/>
+        <entry id="38" method="true" symbol="textR"/>
+        <entry id="36" method="true" symbol="textL"/>
+        <entry id="37" method="true" symbol="textC"/>
+        <entry field="true" id="72" symbol="ipcTemp"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="43" method="true" symbol="TopRightLayout"/>
-        <entry id="81" method="true" symbol="toDist"/>
+        <entry id="45" method="true" symbol="TopRightLayout"/>
+        <entry id="83" method="true" symbol="toDist"/>
         <entry field="true" id="12" symbol="counter"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="87" method="true" symbol="getTrimp"/>
+        <entry id="89" method="true" symbol="getTrimp"/>
         <entry id="8390170" method="true" symbol="onBackgroundData"/>
-        <entry field="true" id="28" symbol="f2_value"/>
+        <entry field="true" id="29" symbol="f2_value"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="27" symbol="f1_value"/>
+        <entry field="true" id="28" symbol="f1_value"/>
+        <entry id="33" method="true" symbol="drawLayout"/>
         <entry field="true" id="8388958" symbol="speed"/>
-        <entry id="8390718" method="true" symbol="drawLayout"/>
-        <entry field="true" id="64" symbol="avgHR3"/>
-        <entry field="true" id="51" symbol="hrPos"/>
-        <entry field="true" id="66" symbol="elevationGain"/>
-        <entry field="true" id="63" symbol="time"/>
+        <entry field="true" id="66" symbol="avgHR3"/>
+        <entry field="true" id="53" symbol="hrPos"/>
+        <entry field="true" id="68" symbol="elevationGain"/>
+        <entry field="true" id="65" symbol="time"/>
         <entry id="8390169" method="true" symbol="getServiceDelegate"/>
         <entry id="8390148" method="true" symbol="onTemporalEvent"/>
-        <entry field="true" id="49" symbol="lastPower"/>
-        <entry id="39" module="true" symbol="Layouts"/>
-        <entry field="true" id="73" symbol="oneHourTrimpAtLthr"/>
-        <entry field="true" id="53" symbol="tempCount"/>
-        <entry id="8390147" object="true" symbol="ServiceDelegate"/>
-        <entry field="true" id="76" symbol="HRrest"/>
-        <entry id="45" method="true" symbol="BottomRightLayout"/>
-        <entry field="true" id="57" symbol="kFemale"/>
+        <entry field="true" id="51" symbol="lastPower"/>
+        <entry field="true" id="16" symbol="APPVERSION"/>
+        <entry id="41" module="true" symbol="Layouts"/>
+        <entry field="true" id="75" symbol="oneHourTrimpAtLthr"/>
+        <entry field="true" id="55" symbol="tempCount"/>
+        <entry field="true" id="78" symbol="HRrest"/>
+        <entry id="47" method="true" symbol="BottomRightLayout"/>
+        <entry field="true" id="59" symbol="kFemale"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry id="78" method="true" symbol="getAverage"/>
-        <entry field="true" id="58" symbol="dist"/>
-        <entry id="38" module="true" symbol="Menus"/>
-        <entry field="true" id="47" symbol="lastSecs"/>
-        <entry field="true" id="59" symbol="hr"/>
-        <entry field="true" id="16" symbol="fields"/>
+        <entry id="80" method="true" symbol="getAverage"/>
+        <entry field="true" id="60" symbol="dist"/>
+        <entry id="40" module="true" symbol="Menus"/>
+        <entry field="true" id="49" symbol="lastSecs"/>
+        <entry field="true" id="61" symbol="hr"/>
+        <entry field="true" id="17" symbol="fields"/>
         <entry id="10" object="true" symbol="larsBikeFields"/>
-        <entry field="true" id="30" symbol="f4_value"/>
-        <entry field="true" id="29" symbol="f3_value"/>
-        <entry field="true" id="68" symbol="power3s"/>
+        <entry field="true" id="31" symbol="f4_value"/>
+        <entry field="true" id="30" symbol="f3_value"/>
+        <entry field="true" id="70" symbol="power3s"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="67" symbol="eleGain"/>
-        <entry field="true" id="74" symbol="trimpTotal"/>
+        <entry field="true" id="69" symbol="eleGain"/>
+        <entry field="true" id="76" symbol="trimpTotal"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268436538" name="HRZones" stackId="6" startPc="268435870"/>
-        <entry endPc="268436538" name="now" stackId="3" startPc="268435870"/>
-        <entry endPc="268436538" name="hrrest" stackId="7" startPc="268435870"/>
-        <entry endPc="268436538" name="sport" stackId="5" startPc="268435870"/>
-        <entry endPc="268436538" name="profile" stackId="4" startPc="268435870"/>
-        <entry endPc="268436538" name="today" stackId="1" startPc="268435870"/>
-        <entry endPc="268436538" name="gender" stackId="9" startPc="268435870"/>
-        <entry endPc="268436538" name="dateString" stackId="2" startPc="268435870"/>
-        <entry endPc="268436538" name="lthr" stackId="10" startPc="268435870"/>
-        <entry endPc="268436538" name="hrmax" stackId="8" startPc="268435870"/>
-        <entry endPc="268436544" name="dc" stackId="1" startPc="268436539"/>
-        <entry endPc="268436745" name="dc" stackId="1" startPc="268436544"/>
-        <entry endPc="268437360" name="length" stackId="2" startPc="268437268"/>
-        <entry endPc="268437950" name="dc" stackId="1" startPc="268436745"/>
-        <entry endPc="268438069" name="hr" stackId="1" startPc="268437950"/>
-        <entry endPc="268438351" name="color" stackId="3" startPc="268438073"/>
-        <entry endPc="268438351" name="width" stackId="4" startPc="268438073"/>
-        <entry endPc="268438351" name="pct" stackId="2" startPc="268438073"/>
-        <entry endPc="268438352" name="dc" stackId="1" startPc="268438069"/>
-        <entry endPc="268438435" name="info" stackId="1" startPc="268438352"/>
-        <entry endPc="268438495" name="x" stackId="2" startPc="268438435"/>
-        <entry endPc="268438495" name="dc" stackId="1" startPc="268438435"/>
-        <entry endPc="268438495" name="font" stackId="4" startPc="268438435"/>
-        <entry endPc="268438495" name="s" stackId="5" startPc="268438435"/>
-        <entry endPc="268438495" name="y" stackId="3" startPc="268438435"/>
-        <entry endPc="268438555" name="x" stackId="2" startPc="268438495"/>
-        <entry endPc="268438555" name="dc" stackId="1" startPc="268438495"/>
-        <entry endPc="268438555" name="font" stackId="4" startPc="268438495"/>
-        <entry endPc="268438555" name="s" stackId="5" startPc="268438495"/>
-        <entry endPc="268438555" name="y" stackId="3" startPc="268438495"/>
-        <entry endPc="268438615" name="x" stackId="2" startPc="268438555"/>
-        <entry endPc="268438615" name="dc" stackId="1" startPc="268438555"/>
-        <entry endPc="268438615" name="font" stackId="4" startPc="268438555"/>
-        <entry endPc="268438615" name="s" stackId="5" startPc="268438555"/>
-        <entry endPc="268438615" name="y" stackId="3" startPc="268438555"/>
-        <entry endPc="268438653" name="f" stackId="1" startPc="268438615"/>
-        <entry endPc="268438716" name="i" stackId="1" startPc="268438687"/>
-        <entry endPc="268438775" name="i" stackId="2" startPc="268438746"/>
-        <entry endPc="268438834" name="i" stackId="3" startPc="268438805"/>
-        <entry endPc="268438966" name="i" stackId="4" startPc="268438916"/>
-        <entry endPc="268438988" name="sum" stackId="3" startPc="268438878"/>
-        <entry endPc="268438988" name="count" stackId="2" startPc="268438878"/>
-        <entry endPc="268438989" name="a" stackId="1" startPc="268438874"/>
-        <entry endPc="268439112" name="idx" stackId="8" startPc="268439059"/>
-        <entry endPc="268439125" name="i" stackId="7" startPc="268439059"/>
-        <entry endPc="268439147" name="sum" stackId="6" startPc="268438993"/>
-        <entry endPc="268439147" name="count" stackId="5" startPc="268438993"/>
-        <entry endPc="268439147" name="start" stackId="4" startPc="268438993"/>
-        <entry endPc="268439148" name="a" stackId="1" startPc="268438989"/>
-        <entry endPc="268439148" name="curIdx" stackId="2" startPc="268438989"/>
-        <entry endPc="268439148" name="n" stackId="3" startPc="268438989"/>
-        <entry endPc="268439256" name="s" stackId="1" startPc="268439148"/>
-        <entry endPc="268439353" name="dist" stackId="2" startPc="268439260"/>
-        <entry endPc="268439354" name="d" stackId="1" startPc="268439256"/>
-        <entry endPc="268439384" name="o" stackId="1" startPc="268439354"/>
-        <entry endPc="268439422" name="f" stackId="1" startPc="268439384"/>
-        <entry endPc="268439584" name="fmt" stackId="5" startPc="268439426"/>
-        <entry endPc="268439584" name="hours" stackId="3" startPc="268439426"/>
-        <entry endPc="268439584" name="minutes" stackId="4" startPc="268439426"/>
-        <entry endPc="268439584" name="s" stackId="2" startPc="268439426"/>
-        <entry endPc="268439585" name="secs" stackId="1" startPc="268439422"/>
-        <entry endPc="268439729" name="h" stackId="2" startPc="268439589"/>
-        <entry endPc="268439730" name="clock" stackId="1" startPc="268439585"/>
-        <entry endPc="268439871" name="idx" stackId="2" startPc="268439767"/>
-        <entry endPc="268439953" name="idx" stackId="3" startPc="268439887"/>
-        <entry endPc="268440592" name="temp" stackId="5" startPc="268440432"/>
-        <entry endPc="268440703" name="elapsed" stackId="4" startPc="268439734"/>
-        <entry endPc="268440704" name="info" stackId="1" startPc="268439730"/>
-        <entry endPc="268440900" name="hrrest" stackId="1" startPc="268440704"/>
-        <entry endPc="268440900" name="gender" stackId="3" startPc="268440704"/>
-        <entry endPc="268440900" name="hrmax" stackId="2" startPc="268440704"/>
-        <entry endPc="268440900" name="lthr" stackId="4" startPc="268440704"/>
-        <entry endPc="268440950" name="hrr" stackId="2" startPc="268440904"/>
-        <entry endPc="268440951" name="hr" stackId="1" startPc="268440900"/>
-        <entry endPc="268441011" name="hrr" stackId="2" startPc="268440955"/>
-        <entry endPc="268441011" name="trimp" stackId="3" startPc="268440955"/>
-        <entry endPc="268441012" name="hr" stackId="1" startPc="268440951"/>
-        <entry endPc="268441044" name="hrss" stackId="1" startPc="268441016"/>
-        <entry endPc="268435532" name="temp" stackId="2" startPc="268435487"/>
-        <entry endPc="268435532" name="sensorInfo" stackId="1" startPc="268435487"/>
-        <entry endPc="268435561" name="state" stackId="1" startPc="268435556"/>
-        <entry endPc="268435566" name="state" stackId="1" startPc="268435561"/>
-        <entry endPc="268435785" name="data" stackId="1" startPc="268435729"/>
-        <entry endPc="268441090" name="dictionary" stackId="1" startPc="268441049"/>
-        <entry endPc="268441106" name="color" stackId="1" startPc="268441091"/>
-        <entry endPc="268441155" name="dc" stackId="1" startPc="268441106"/>
-        <entry endPc="268441800" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441167"/>
-        <entry endPc="268441800" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268441167"/>
-        <entry endPc="268441800" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268441167"/>
-        <entry endPc="268441800" name="rez_cmp_local_custom_drawable_49835233920699928425" stackId="2" startPc="268441167"/>
-        <entry endPc="268441800" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268441167"/>
-        <entry endPc="268441801" name="dc" stackId="1" startPc="268441155"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441813"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441813"/>
-        <entry endPc="268442140" name="rez_cmp_local_custom_drawable_80920901861573033621" stackId="2" startPc="268441813"/>
-        <entry endPc="268442141" name="dc" stackId="1" startPc="268441801"/>
-        <entry endPc="268442480" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442153"/>
-        <entry endPc="268442480" name="rez_cmp_local_custom_drawable_18747805166895383117" stackId="2" startPc="268442153"/>
-        <entry endPc="268442480" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442153"/>
-        <entry endPc="268442481" name="dc" stackId="1" startPc="268442141"/>
-        <entry endPc="268442820" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442493"/>
-        <entry endPc="268442820" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442493"/>
-        <entry endPc="268442820" name="rez_cmp_local_custom_drawable_48614944013749635172" stackId="2" startPc="268442493"/>
-        <entry endPc="268442821" name="dc" stackId="1" startPc="268442481"/>
-        <entry endPc="268443160" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442833"/>
-        <entry endPc="268443160" name="rez_cmp_local_custom_drawable_20131276602084784746" stackId="2" startPc="268442833"/>
-        <entry endPc="268443160" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442833"/>
-        <entry endPc="268443161" name="dc" stackId="1" startPc="268442821"/>
+        <entry endPc="268436372" name="HRZones" stackId="6" startPc="268435704"/>
+        <entry endPc="268436372" name="now" stackId="3" startPc="268435704"/>
+        <entry endPc="268436372" name="hrrest" stackId="7" startPc="268435704"/>
+        <entry endPc="268436372" name="sport" stackId="5" startPc="268435704"/>
+        <entry endPc="268436372" name="profile" stackId="4" startPc="268435704"/>
+        <entry endPc="268436372" name="today" stackId="1" startPc="268435704"/>
+        <entry endPc="268436372" name="gender" stackId="9" startPc="268435704"/>
+        <entry endPc="268436372" name="dateString" stackId="2" startPc="268435704"/>
+        <entry endPc="268436372" name="lthr" stackId="10" startPc="268435704"/>
+        <entry endPc="268436372" name="hrmax" stackId="8" startPc="268435704"/>
+        <entry endPc="268436378" name="dc" stackId="1" startPc="268436373"/>
+        <entry endPc="268436579" name="dc" stackId="1" startPc="268436378"/>
+        <entry endPc="268437194" name="length" stackId="2" startPc="268437102"/>
+        <entry endPc="268437722" name="dc" stackId="1" startPc="268436579"/>
+        <entry endPc="268437841" name="hr" stackId="1" startPc="268437722"/>
+        <entry endPc="268438123" name="color" stackId="3" startPc="268437845"/>
+        <entry endPc="268438123" name="width" stackId="4" startPc="268437845"/>
+        <entry endPc="268438123" name="pct" stackId="2" startPc="268437845"/>
+        <entry endPc="268438124" name="dc" stackId="1" startPc="268437841"/>
+        <entry endPc="268438207" name="info" stackId="1" startPc="268438124"/>
+        <entry endPc="268438267" name="x" stackId="2" startPc="268438207"/>
+        <entry endPc="268438267" name="dc" stackId="1" startPc="268438207"/>
+        <entry endPc="268438267" name="font" stackId="4" startPc="268438207"/>
+        <entry endPc="268438267" name="s" stackId="5" startPc="268438207"/>
+        <entry endPc="268438267" name="y" stackId="3" startPc="268438207"/>
+        <entry endPc="268438327" name="x" stackId="2" startPc="268438267"/>
+        <entry endPc="268438327" name="dc" stackId="1" startPc="268438267"/>
+        <entry endPc="268438327" name="font" stackId="4" startPc="268438267"/>
+        <entry endPc="268438327" name="s" stackId="5" startPc="268438267"/>
+        <entry endPc="268438327" name="y" stackId="3" startPc="268438267"/>
+        <entry endPc="268438387" name="x" stackId="2" startPc="268438327"/>
+        <entry endPc="268438387" name="dc" stackId="1" startPc="268438327"/>
+        <entry endPc="268438387" name="font" stackId="4" startPc="268438327"/>
+        <entry endPc="268438387" name="s" stackId="5" startPc="268438327"/>
+        <entry endPc="268438387" name="y" stackId="3" startPc="268438327"/>
+        <entry endPc="268438425" name="f" stackId="1" startPc="268438387"/>
+        <entry endPc="268438488" name="i" stackId="1" startPc="268438459"/>
+        <entry endPc="268438547" name="i" stackId="2" startPc="268438518"/>
+        <entry endPc="268438606" name="i" stackId="3" startPc="268438577"/>
+        <entry endPc="268438738" name="i" stackId="4" startPc="268438688"/>
+        <entry endPc="268438760" name="sum" stackId="3" startPc="268438650"/>
+        <entry endPc="268438760" name="count" stackId="2" startPc="268438650"/>
+        <entry endPc="268438761" name="a" stackId="1" startPc="268438646"/>
+        <entry endPc="268438884" name="idx" stackId="8" startPc="268438831"/>
+        <entry endPc="268438897" name="i" stackId="7" startPc="268438831"/>
+        <entry endPc="268438919" name="sum" stackId="6" startPc="268438765"/>
+        <entry endPc="268438919" name="count" stackId="5" startPc="268438765"/>
+        <entry endPc="268438919" name="start" stackId="4" startPc="268438765"/>
+        <entry endPc="268438920" name="a" stackId="1" startPc="268438761"/>
+        <entry endPc="268438920" name="curIdx" stackId="2" startPc="268438761"/>
+        <entry endPc="268438920" name="n" stackId="3" startPc="268438761"/>
+        <entry endPc="268439028" name="s" stackId="1" startPc="268438920"/>
+        <entry endPc="268439125" name="dist" stackId="2" startPc="268439032"/>
+        <entry endPc="268439126" name="d" stackId="1" startPc="268439028"/>
+        <entry endPc="268439156" name="o" stackId="1" startPc="268439126"/>
+        <entry endPc="268439194" name="f" stackId="1" startPc="268439156"/>
+        <entry endPc="268439356" name="fmt" stackId="5" startPc="268439198"/>
+        <entry endPc="268439356" name="hours" stackId="3" startPc="268439198"/>
+        <entry endPc="268439356" name="minutes" stackId="4" startPc="268439198"/>
+        <entry endPc="268439356" name="s" stackId="2" startPc="268439198"/>
+        <entry endPc="268439357" name="secs" stackId="1" startPc="268439194"/>
+        <entry endPc="268439501" name="h" stackId="2" startPc="268439361"/>
+        <entry endPc="268439502" name="clock" stackId="1" startPc="268439357"/>
+        <entry endPc="268439643" name="idx" stackId="2" startPc="268439539"/>
+        <entry endPc="268439725" name="idx" stackId="3" startPc="268439659"/>
+        <entry endPc="268440276" name="elapsed" stackId="4" startPc="268439506"/>
+        <entry endPc="268440277" name="info" stackId="1" startPc="268439502"/>
+        <entry endPc="268440473" name="hrrest" stackId="1" startPc="268440277"/>
+        <entry endPc="268440473" name="gender" stackId="3" startPc="268440277"/>
+        <entry endPc="268440473" name="hrmax" stackId="2" startPc="268440277"/>
+        <entry endPc="268440473" name="lthr" stackId="4" startPc="268440277"/>
+        <entry endPc="268440523" name="hrr" stackId="2" startPc="268440477"/>
+        <entry endPc="268440524" name="hr" stackId="1" startPc="268440473"/>
+        <entry endPc="268440584" name="hrr" stackId="2" startPc="268440528"/>
+        <entry endPc="268440584" name="trimp" stackId="3" startPc="268440528"/>
+        <entry endPc="268440585" name="hr" stackId="1" startPc="268440524"/>
+        <entry endPc="268440617" name="hrss" stackId="1" startPc="268440589"/>
+        <entry endPc="268435516" name="state" stackId="1" startPc="268435511"/>
+        <entry endPc="268435521" name="state" stackId="1" startPc="268435516"/>
+        <entry endPc="268435619" name="data" stackId="1" startPc="268435563"/>
+        <entry endPc="268440663" name="dictionary" stackId="1" startPc="268440622"/>
+        <entry endPc="268440679" name="color" stackId="1" startPc="268440664"/>
+        <entry endPc="268440728" name="dc" stackId="1" startPc="268440679"/>
+        <entry endPc="268441373" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268440740"/>
+        <entry endPc="268441373" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268440740"/>
+        <entry endPc="268441373" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268440740"/>
+        <entry endPc="268441373" name="rez_cmp_local_custom_drawable_S1R0MCFBIP7Z52DVOVS5" stackId="2" startPc="268440740"/>
+        <entry endPc="268441373" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268440740"/>
+        <entry endPc="268441374" name="dc" stackId="1" startPc="268440728"/>
+        <entry endPc="268441713" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441386"/>
+        <entry endPc="268441713" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441386"/>
+        <entry endPc="268441713" name="rez_cmp_local_custom_drawable_QYD5IAI2D9KDR4M9HBMU" stackId="2" startPc="268441386"/>
+        <entry endPc="268441714" name="dc" stackId="1" startPc="268441374"/>
+        <entry endPc="268442053" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441726"/>
+        <entry endPc="268442053" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441726"/>
+        <entry endPc="268442053" name="rez_cmp_local_custom_drawable_6J80G0I1BAPDF0OM4R8M" stackId="2" startPc="268441726"/>
+        <entry endPc="268442054" name="dc" stackId="1" startPc="268441714"/>
+        <entry endPc="268442393" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442066"/>
+        <entry endPc="268442393" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442066"/>
+        <entry endPc="268442393" name="rez_cmp_local_custom_drawable_S8RV0HQ3NND00KEYEJBP" stackId="2" startPc="268442066"/>
+        <entry endPc="268442394" name="dc" stackId="1" startPc="268442054"/>
+        <entry endPc="268442733" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442406"/>
+        <entry endPc="268442733" name="rez_cmp_local_custom_drawable_EE4JCV983W735AKOIRWZ" stackId="2" startPc="268442406"/>
+        <entry endPc="268442733" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442406"/>
+        <entry endPc="268442734" name="dc" stackId="1" startPc="268442394"/>
     </localVars>
     <annotations/>
     <functions>
@@ -744,15 +723,15 @@
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
         <dataEntry offset="238" parentId="globals" symbolId="larsBikeDatafieldsServiceDelegate" type="class"/>
         <dataEntry offset="293" parentId="globals" symbolId="larsBikeDatafieldsApp" type="class"/>
-        <dataEntry offset="791" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry offset="862" parentId="globals" symbolId="larsBikeDatafieldsView" type="class"/>
-        <dataEntry offset="1117" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="1196" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="1235" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="1266" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="1297" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="1328" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="1399" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="1446" parentId="globals" symbolId="larsBikeFields" type="class"/>
+        <dataEntry offset="698" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="769" parentId="globals" symbolId="larsBikeDatafieldsView" type="class"/>
+        <dataEntry offset="1032" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="1111" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="1150" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="1181" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="1212" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="1243" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="1314" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="1361" parentId="globals" symbolId="larsBikeFields" type="class"/>
     </dataEntryOffsetMappings>
 </debugInfo>

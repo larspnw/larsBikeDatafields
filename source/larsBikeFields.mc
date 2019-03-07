@@ -235,6 +235,7 @@ class larsBikeFields {
         
 		//System.println("compute 5");
         //temperature and battery - check every 5 min
+		/* possible battery drain issue 
         tempCount++;
         if ( tempCount > 300 ) {
         	tempCount = 0;
@@ -245,9 +246,10 @@ class larsBikeFields {
         		temp = "--";
         	}
         	temperature = temp;
-        
+       
         	batteryPct = toInt(Sys.getSystemStats().battery);
         }
+        */
         
 		//System.println("compute 6");
         if ( info.timerState == Activity.TIMER_STATE_ON ) {

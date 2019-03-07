@@ -2,6 +2,7 @@
     <iq:application entry="larsBikeDatafieldsApp" id="fb7cd2efd82b44f088d4cf415efb24f0" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="2.4.0" name="@Strings.AppName" type="datafield" version="0.0.0">
         <iq:products>
             <iq:product id="edge130"/>
+            <iq:product id="edge520plus"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Background"/>

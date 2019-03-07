@@ -25,14 +25,17 @@ class larsBikeDatafieldsApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-    
+   
+   		/* having battery drain issues so removing for now 
     	//register for temporal events if they are supported
     	if(Toybox.System has :ServiceDelegate) {
     		System.println("background IS available on this device****");
     		Background.registerForTemporalEvent(new Time.Duration(5 * 60));
+    		//TODO - is this really registered in seconds? move to 10 min?
     	} else {
     		System.println("****background not available on this device****");
     	}
+    	*/
 		    	
         return [ new larsBikeDatafieldsView() ];
     }
